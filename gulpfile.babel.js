@@ -213,7 +213,7 @@ gulp.task('sitemap', () => {
 		read: false
 	})
 		.pipe(sitemap({
-			siteUrl: 'https://github.com/Tempest9805/betFran-Bundle' // remplazar por tu dominio
+			siteUrl: 'https://stephapc.github.io/Bundle-betfran' // remplazar por tu dominio
 		}))
 		.pipe(gulp.dest('./public'))
 });

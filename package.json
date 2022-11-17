@@ -1,9 +1,9 @@
 {
-	"name": "betFran",
+	"name": "BetFran",
 	"version": "1.0.0",
 	"description": "Simple scafolding for statics web projects",
 	"main": "gulpfile.babel.js",
-	"homepage": "https://Tempest9805.github.io/betFran-Bundle/",
+	"homepage": "https://stephapc.github.io/Bundle-betfran",
 	"scripts": {
 		"start": "gulp",
 		"pug": "gulp pug",
@@ -12,7 +12,7 @@
 		"sitemap": "gulp sitemap",
 		"deploy": "gh-pages -d public"
 	},
-	"author": "Enrique Estrada",
+	"author": "Stephany Porras",
 	"license": "GPL-2.0",
 	"dependencies": {
 		"blueimp-md5": "^2.10.0",
