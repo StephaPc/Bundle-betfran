@@ -1,0 +1,25 @@
+.btn {
+    color: var(--second-color);
+    padding: .7rem 1rem;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+    font-weight: bold;
+
+    &__login {
+        background-color: var(--color-first);
+        border: 1px solid var(--second-color);
+        color: var(--second-color);
+
+    }
+    &__register {
+        background-color: var(--Bg-ColorOrange);
+        color: var(--color-first);
+        border: none;
+    }
+    &__login:hover {
+        cursor: pointer;
+        background: var( --gray-color);
+    }&__register:hover {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,38 @@
+.footer {
+    @include fromTo(s, m) {
+
+        &__cols {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ed-grid.row-gap,
+        .ed-grid.rows-gap {
+            grid-row-gap: 0;
+        }
+    }
+
+    &__subFooter {
+        background: var(--gray-color);
+        border-radius: 10px;
+        padding: 2rem;
+    }
+
+    &__cols {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    & a {
+        padding-bottom: .8rem;
+    }
+
+    & a:hover {
+        text-decoration: none;
+        color: var(--Bg-ColorOrange);
+
+    }
+}

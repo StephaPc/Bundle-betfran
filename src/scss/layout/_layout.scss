@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+::selection {
+	color: white;
+	background: #00CBFF;
+}
+
+strong {
+	font-weight 	: 700;
+}
+
+body {
+	margin         	: var(--header-height) 0 0 0;
+	min-height     	: calc(100vh - var(--header-height));
+	background 		: var(--body-bg);
+	display        	: flex;
+	flex-direction 	: column;
+	background		: var(--color-first);
+}
+
+.main-header{
+	font-size  		: fontSize(small);
+	font-weight      : bold;
+}
+.main-container{
+	color      		: #FFF;
+	padding    		: 2rem 0;
+	font-size  		: fontSize(smaller);
+	margin-top 		: auto;
+}
+.main-footer {
+	background 		: $color-first;
+	color      		: #FFF;
+	padding    		: 2rem 0;
+	font-size  		: fontSize(smaller);
+	font-family		: $footer-font;
+	margin-top 		: auto;
+}

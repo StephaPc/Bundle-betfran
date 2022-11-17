@@ -1,0 +1,11 @@
+.container-middle {
+    min-height: 25vh;
+    
+    &__videos{
+        border: 1px solid red;
+    }
+
+    &__servicios{
+        border: 1px solid red;
+    }
+}

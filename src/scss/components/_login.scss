@@ -1,0 +1,31 @@
+.login{
+	background: black;
+    border-radius: 10px;
+    max-width: 300px;
+    min-width: 300px;
+	&__align{
+		display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem 1rem 1rem 1rem;
+        color: white;
+	}
+	&__btn{
+		display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        gap: .4rem;
+	}
+    &__forgot{
+		display: flex;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        justify-content: center;
+	}
+    &__input-label{
+        border-radius: .4rem;
+        height: 2rem;
+    }
+}
