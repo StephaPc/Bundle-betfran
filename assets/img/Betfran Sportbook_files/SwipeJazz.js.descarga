@@ -1,0 +1,22 @@
+// ---------- 26-06-2019
+// ---------- BY RSC
+// ----------------------
+
+// UN LOAD FUNTION
+LoadCarruselJazz = function () {
+
+    $(document).ready(function () {
+        $(".carousel").swiperight(function () {
+            $(this).carousel('prev');
+        });
+        $(".carousel").swipeleft(function () {
+            $(this).carousel('next');
+        });
+    });
+}
+
+
+$('#landingCarousel1').carousel({
+    interval: 5000,
+    cycle: true
+});

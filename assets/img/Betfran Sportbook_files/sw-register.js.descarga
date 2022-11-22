@@ -1,0 +1,30 @@
+try {
+
+  if ('serviceWorker' in navigator) {
+    let SWVersion = '/sw.js?1.5';
+    navigator.serviceWorker.getRegistrations().then(registrations => {
+      if (registrations && registrations.length > 0) {
+        let existServiceWorker = registrations.find(x => x.scope.includes(window.location.hostname));
+
+        if (existServiceWorker && existServiceWorker.active && existServiceWorker.active.scriptURL.includes(SWVersion)) {
+          console.log("SWV Find");
+          return;
+        }
+      }
+      navigator.serviceWorker.register(SWVersion, {
+        scope: '/'
+      })
+        .then(registration => {
+          console.log("SW Reg")
+        }, error => {
+          console.log("Error SW Reg")
+        });
+      // navigator.serviceWorker.register(`http://${window.location.hostname}:4200/sw.js`).then(function(registration) {
+      //     console.log('Service worker registration succeeded:', registration);
+      //   }, /*catch*/ function(error) {
+      //     console.log('Service worker registration failed:', error);
+      //   });
+    });
+  }
+
+} catch (err) { console.log(`sw err: ${err}`); }
