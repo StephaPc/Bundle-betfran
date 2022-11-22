@@ -30,7 +30,6 @@ body {
 	color      		: #FFF;
 	padding    		: 2rem 0 0 0;
 	font-size  		: fontSize(smaller);
-	margin-top 		: auto;
 }
 .main-footer {
 	background 		: $color-first;
@@ -38,5 +37,13 @@ body {
 	padding    		: 2rem 0 0 0;
 	font-size  		: fontSize(smaller);
 	font-family		: $footer-font;
-	margin-top 		: auto;
+}
+
+.main-header .ed-grid,
+.main-container .ed-grid,
+.main-footer .ed-grid{
+	width: 91%;
+	max-width: 91%;
+	margin-left: auto;
+	margin-right: auto;
 }

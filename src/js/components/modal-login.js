@@ -1,5 +1,5 @@
 let modal = document.getElementById("modal-login");
-let btn = document.getElementById("btnlogin");
+let btn = document.querySelectorAll(".btnlogin");
 let span = document.getElementsByClassName("loginModal__close")[0];
 
 function openModal(){
@@ -9,5 +9,9 @@ function openModal(){
 function closeModal(){
     modal.style.display = "none";
 }
-btn.addEventListener('click', openModal);
+
+for (let i = 0; i < btn.length; i++) {
+    btn[i].addEventListener('click', openModal);
+}
+
 span.addEventListener('click', closeModal);

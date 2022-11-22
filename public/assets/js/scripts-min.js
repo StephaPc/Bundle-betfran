@@ -2,7 +2,7 @@
 "use strict";
 
 var modal = document.getElementById("modal-login");
-var btn = document.getElementById("btnlogin");
+var btn = document.querySelectorAll(".btnlogin");
 var span = document.getElementsByClassName("loginModal__close")[0];
 
 function openModal() {
@@ -12,7 +12,11 @@ function openModal() {
 function closeModal() {
     modal.style.display = "none";
 }
-btn.addEventListener('click', openModal);
+
+for (var i = 0; i < btn.length; i++) {
+    btn[i].addEventListener('click', openModal);
+}
+
 span.addEventListener('click', closeModal);
 
 },{}],2:[function(require,module,exports){
