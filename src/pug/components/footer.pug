@@ -1,17 +1,6 @@
 div(class='footer')
 	div(class= 'footer__subFooter ed-grid m-grid-2  lg-grid-3 row-gap')
-		div(class= 'footer__cols')
-				a(href='https://www.google.com/' target='_blank' class='foot-icon') Deportes
-				a(href='https://www.google.com/' target='_blank' class='foot-icon') Caballos
-				a(href='https://www.google.com/' target='_blank' class='foot-icon') Registrate
-				a(href='https://www.google.com/' target='_blank' class='foot-icon') Recargas y pagos
-		div(class= 'footer__cols') 
-				a(href='https://www.google.com/' target='_blank' class='foot-icon') Acerca de nosotros
-				a(href='https://www.google.com/' target='_blank' class='foot-icon') Términos y condiciones
-				a(href='https://www.google.com/' target='_blank' class='foot-icon') Juego responsable
-				a(href='https://www.google.com/' target='_blank' class='foot-icon') Politica de privacidad
-		div(class= 'footer__cols')
-				a(href='https://www.google.com/' target='_blank' class='foot-icon') Reglas de la casa
-				a(href='https://www.google.com/' target='_blank' class='foot-icon') Reglas de deportes
-				a(href='https://www.google.com/' target='_blank' class='foot-icon') Reglas de poker
-
+		include ../config/mixins/footer-mixin
+	div(class='footer__bottom')
+		p Powered by JazzGS  
+		a(href='https://jazzgs.com/', target="_blank"): img(class='footer__bottom__img', src="assets/img/powered-jgs.png", alt="image JazzGs", width="108" height="30" )

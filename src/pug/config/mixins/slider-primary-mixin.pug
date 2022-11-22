@@ -1,0 +1,9 @@
+mixin sliderPrimary(src, imgMob, url, target, id)
+    div: div(class='tns-single__content')
+      a(href=`${url}`, target=`${target}`, id=`${id}`)
+        picture 
+          source(media="(min-width: 640px)", class='img-fluid height_content' srcset=`${src}`, alt="image slider", width="1921" height="451")
+          img(class='tns-single__img img-fluid height_content', src=`${imgMob}`, alt="image slider0", width="452" height="242")
+-for (var i = 0; i < sliderPrimary.length; i++)
+    -var d = sliderPrimary[i]
+    +sliderPrimary(d.src, d.imgMob, d.url, d.target, d.id)

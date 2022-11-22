@@ -1,12 +1,18 @@
 div(class = "login")
-	div(class = "login__align")
-		label Usuario: 
-		input(type="text" class="login__input-label")
-	div(class = "login__align") 
-		label Contraseña: 
-		input(type="text" class="login__input-label")
-	div(class = "login__btn") 
-		button(class="btn btn__login") INGRESAR
-		button(class="btn btn__register") REGISTRATE
-	div(class = "login__forgot") 
-		a(href="") ¿Olvidó su contraseña?
+	<form name="LoginForm" action="javascript:void(0)" onsubmit="BackEndLogin(this); return false">
+		div(class = "login__align")
+			label(for="username") Usuario: 
+			input(class="login__input-label" type="text" name="username" required)
+		div(class = "login__align") 
+			label(for="password") Contraseña: 
+			input(class="login__input-label" type="password" name="password" required)
+			div(class="text-center mt-2"): small(name="msj_error_lg" class="text-danger")
+		div(class = "login__btn") 
+			button(class="btn btn__login" name="btn-login" type="submit") INGRESAR
+				<span name="msj_loading" id="id-login-loading"></span>
+			button(class="btn btn__register") REGISTRATE
+		div(class = "login__forgot") 
+			a(href="resetear-contrasena.html") ¿Olvidó su contraseña?
+			input(type="hidden" name="BackEndUrl" value="https://apuestas.betfran.com")
+	</form>
+<script src="https://images.betimages.com/Betslip/js/quick.login.min.js"></script>

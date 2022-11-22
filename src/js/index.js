@@ -1,5 +1,7 @@
-import {topNav} from './modules/topNav'
-import {tnsSingle} from './modules/tns-slider';
+import {topNav} from './components/topNav'
+import {tnsSingle} from './components/tns-slider';
+import loginModal from './components/modal-login';
 
 topNav();
 tnsSingle();	
+loginModal;

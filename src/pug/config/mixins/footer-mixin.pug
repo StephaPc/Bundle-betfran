@@ -1,0 +1,18 @@
+mixin divfooter()
+	div(class="footer__cols")
+		-for(var j = 0; j < colum.length; j++)
+			-var title=colum[j].title
+			-var src=colum[j].src
+			+footerColum(title,src)
+
+mixin footerColum(title, src)
+	li: a(href=src)=title
+
+-for(var i = 0; i < 3; i++)
+	-if(i == 0)
+		-var colum = footerColum_1;
+	-else if(i == 1)
+		-var colum = footerColum_2;
+	-else if(i == 2)
+		-var colum = footerColum_3;
+	+divfooter()

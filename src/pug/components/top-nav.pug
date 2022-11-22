@@ -8,17 +8,8 @@ nav(class='top-nav')
 				img(src='https://betfran.com/assets/images/betfran/sb-logo.png', alt='', class='top-nav__logo')
 		div
 			ul(class='top-nav__menu')
-				li(class='top-nav__li'): a(href='page2.html' class='top-nav__anchor') DEPORTES
-				li(class='top-nav__li'): a(href='page2.html' class='top-nav__anchor') CASINO
-				li(class='top-nav__li'): a(href='page2.html' class='top-nav__anchor') CABALLOS
-				li(class='top-nav__li'): a(href='page2.html' class='top-nav__anchor') ESPORTS
-				li(class='top-nav__li'): a(href='page2.html' class='top-nav__anchor') CASINO EN VIVO
-				li(class='top-nav__li'): a(href='page2.html' class='top-nav__anchor') APUESTAS EN VIVO
-				li(class='top-nav__li'): a(href='page2.html' class='top-nav__anchor') PROMOCIONES
-				li(class='top-nav__li'): a(href='page2.html' class='top-nav__anchor') BANCA
-				li(class='top-nav__li'): a(href='page2.html' target='_blank' class='top-nav__anchor') POKER
-				li(class='top-nav__li'): a(href='http://clsop.com/' target='_blank' class='top-nav__anchor') CLSOP
+				include ../config/mixins/topNav-mixin
 		div(class='top-nav__align') 	
-			button(class="btn btn__login") INGRESAR
+			button(class="btn btn__login" id='btnlogin') INGRESAR
 			button(class="btn btn__register") REGISTRATE
 			

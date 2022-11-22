@@ -1,0 +1,221 @@
+{
+	"menutopnav": [
+		{
+			"title": "Deportes",
+			"src": "deportes.html"
+		},
+		{
+			"title": "Casino",
+			"src": "casino.html"
+		},
+		{
+			"title": "Caballos",
+			"src": "caballos.html"
+		},
+		{
+			"title": "Esports",
+			"src": "esports.html"
+		},
+		{
+			"title": "Casino en vivo",
+			"src": "casino-en-vivo.html"
+		},
+    {
+			"title": "Apuestas en vivo",
+			"src": "apuestas-en-vivo.html"
+		},
+		{
+			"title": "Promociones",
+			"src": "promociones.html"
+		},
+    {
+			"title": "Banca",
+			"src": "banca.html"
+		},
+    {
+			"title": "Poker",
+			"src": "poker.html"
+		},
+    {
+			"title": "CLSOP",
+			"src": "http://clsop.com/",
+      "target": "_blank"
+		}
+	],
+  "sliderPrimary": [
+		{
+			"src": "assets/img/banner-Road.jpg",
+			"imgMob": "assets/img/banner-Road-mobile.jpg",
+      "url": "http://clsop.com/",
+      "target": "_blank"
+		},
+		{
+			"src": "assets/img/banner-clsop-league-1920x450.jpg",
+			"imgMob": "assets/img/banner-clsop-league-1920x450.jpg",
+      "url": "http://clsop.com/",
+      "target": "_blank"
+		},
+		{
+			"src": "assets/img/slider000.jpg",
+			"imgMob": "assets/img/slider000mob.jpg",
+      "url": "http://clsop.com/",
+      "target": "_blank"
+		},
+		{
+			"src": "assets/img/heroimagehomepage-02.jpg",
+			"imgMob": "assets/img/Bannersmobile-todos1.jpg",
+      "url": " ",
+      "target": " ",
+      "id": "btnlogin"
+		}
+	],
+  "footerColum_1":[
+    {
+      "title": "Deportes",
+      "src": "deportes.html"
+    },
+    {
+      "title": "Caballos",
+      "src": "caballos.html"
+    },
+    {
+      "title": "Regístrate",
+      "src": "src"
+    },
+    {
+      "title": "Recargas y pagos",
+      "src": "banca.html"
+    }
+  ],
+  "footerColum_2":[
+    {
+      "title": "Acerca de nosotros",
+      "src": "acerca-de-nosotros.html"
+    },
+    {
+      "title": "Términos y condiciones",
+      "src": "terminos-y-condiciones.html"
+    },
+    {
+      "title": "Juego responsable",
+      "src": "juego-responsable.html"
+    },
+    {
+      "title": "Politica de privacidad",
+      "src": "politica-de-privacidad.html"
+    }    
+  ],
+  "footerColum_3":[
+    {
+      "title": "Reglas de la casa",
+      "src": "reglas-de-la-casa.html"
+    },
+    {
+      "title": "Reglas de deportes",
+      "src": "reglas-de-deportes.html"
+    },
+    {
+      "title": "Reglas de poker",
+      "src": "reglas-de-poker.html"
+    }
+  ],
+  "casos":
+		[
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img1.jpg",	
+				"title"		: "Image 1",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img2.jpg",	
+				"title"		: "Image 2",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img3.jpg",	
+				"title"		: "Image 3",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			},
+			{
+				"img"		: "assets/img/img4.jpg",	
+				"title"		: "Image 4",
+				"source"	: "https://jazzsports.ag/",
+				"live"		: "https://jazzsports.ag/en/sports-handicapping-fantasy-contests"
+			}
+		]
+}

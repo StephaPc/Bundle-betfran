@@ -20,19 +20,41 @@
         padding: 2rem;
     }
 
+    &__bottom{
+        display: flex;
+        justify-content: center;
+        padding-top: 1em;
+
+        &__img{
+            height: 20px;
+            margin-left: 0.3em;
+        }
+    }
+
     &__cols {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    & li{
+        list-style: none;
     }
 
     & a {
         padding-bottom: .8rem;
+        line-height: 3;
     }
 
     & a:hover {
         text-decoration: none;
         color: var(--Bg-ColorOrange);
 
+    }
+    
+    & p{
+        font-size: 0.65rem;
+        margin-bottom: 0;
     }
 }

@@ -1,5 +1,5 @@
 {
-	"name": "BetFran",
+	"name": "Bundle-betfran",
 	"version": "1.0.0",
 	"description": "Simple scafolding for statics web projects",
 	"main": "gulpfile.babel.js",

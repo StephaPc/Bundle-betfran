@@ -14,7 +14,14 @@
 		span{color        : gray;}
 	}
 }
-.altura {
+.height_content {
 	height        : 310px;
 	border-radius : 10px;
+}
+
+@media only screen and (max-width: 640px) {
+  .height_content {
+		height        : auto;
+		border-radius : 10px;
+	}
 }

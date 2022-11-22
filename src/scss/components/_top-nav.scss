@@ -16,7 +16,7 @@
 		justify-content : space-between;
 		height        	: var(--header-height);
 		width: 100%;
-		max-width: 1600px;
+		max-width: 1280px;
 		padding: 0 15px;
 	}
 	&__align{
@@ -68,7 +68,6 @@
 			margin: 0;
 			
 		}
-		margin-left: 1em;
 		list-style-type: none;
 		display: inline-block;
 
@@ -82,8 +81,12 @@
 			display: block;
 		}
 		@include from(lg){
-			border-right: 1px solid white;
-			padding-right: .5rem;
+			border-right: 1px solid #7F7F7F;
+			padding: 0 0.7rem;
+			font-size: 0.6rem;
+			font-weight: bold;
+			font-family: 'Open Sans';
+			text-transform: uppercase;
 		}
 
 	}

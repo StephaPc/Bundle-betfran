@@ -1,0 +1,5 @@
+mixin topNav(title, src, target)
+    li(class='top-nav__li'): a(href=`${src}`, class='top-nav__anchor',target=`${target}` )= title
+-for (var i = 0; i < menutopnav.length; i++)
+  -var d = menutopnav[i]
+  +topNav(d.title, d.src, d.target)
