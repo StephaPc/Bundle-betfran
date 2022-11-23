@@ -16,7 +16,7 @@ $footer-font  : 'Open Sans', 'sans-serif';
   --footer-font  : 'Open Sans', sans-serif;
 
   // Font sizes
-  --h1-font-size        : #{rem(24px)};
+  --h1-font-size        : #{rem(22px)};
   --h2-font-size        : #{rem(20px)};
   --h3-font-size        : #{rem(16px)};
   --normal-font-size    : #{rem(15px)};
@@ -60,6 +60,8 @@ $fontSizes : (
   line-height    : var(--heading-line-height);
   font-family    : var(--heading-font);
   font-weight    : 600;
+  text-align: center;
+  margin-top: 1em;
 }
 
 @mixin t1 {

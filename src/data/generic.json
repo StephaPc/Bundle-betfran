@@ -86,6 +86,56 @@
 			"url": "bono-recarga.html"
 		}
 	],
+	"carouselBancaHome": [
+		{
+			"src": "assets/img/banking/cripto.png",
+			"widthImg": "50",
+			"heightImg": "50",
+			"altImg": "Logo cripto"
+		},
+		{
+			"src": "assets/img/banking/cripto2.png",
+			"widthImg": "50",
+			"heightImg": "50",
+			"altImg": "Logo cripto2"
+		},
+		{
+			"src": "assets/img/banking/ria.png",
+			"widthImg": "50",
+			"heightImg": "50",
+			"altImg": "Logo ria"
+		},
+		{
+			"src": "assets/img/banking/dollar.png",
+			"widthImg": "50",
+			"heightImg": "50",
+			"altImg": "Logo dollar"
+		},
+		{
+			"src": "assets/img/banking/banca.png",
+			"widthImg": "50",
+			"heightImg": "50",
+			"altImg": "Logo banca"
+		},
+		{
+			"src": "assets/img/banking/visa.png",
+			"widthImg": "50",
+			"heightImg": "50",
+			"altImg": "Logo visa"
+		},
+		{
+			"src": "assets/img/banking/safety.png",
+			"widthImg": "50",
+			"heightImg": "50",
+			"altImg": "Logo safety"
+		},
+		{
+			"src": "assets/img/banking/astroPay.png",
+			"widthImg": "50",
+			"heightImg": "50",
+			"altImg": "Logo astroPay"
+		}
+	],
   "footerColum_1":[
     {
       "title": "Deportes",

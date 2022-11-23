@@ -1,7 +1,11 @@
 .tns-promotion {
-  width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
+    margin: 0 auto;
+    width: 65%;
+    max-width: 65%;
+
+    h1{
+        font-size: 1.5rem;
+    }
   &>div:nth-child(odd) {
       background: var(--color-first);
   }
@@ -22,4 +26,8 @@
   &__img{
       border-radius: 10px;
   }
+  @include fromTo(s,m){
+    width: 91%;
+    max-width: 91%;
+    }
 }

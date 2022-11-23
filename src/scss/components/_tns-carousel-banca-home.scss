@@ -1,0 +1,34 @@
+.carousel-banking-container{
+  width: 60%;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5em;
+
+  @include fromTo(s,m){
+    width: 91%;
+    max-width: 91%;
+    }
+}
+.tns-Carousel-Banking{
+  & > div:nth-child(odd){
+    background        : var(--color-first);
+  }
+  & > div:nth-child(even){
+    background        :var(--color-third);
+  }
+  &__content{
+    height            : 100px;
+    background        : transparent;
+    display           : flex;
+    justify-content   : center;
+    flex-direction    : column;
+    align-items       : center;
+    span{color        : white;}
+  }
+  &__img{
+    width: auto;
+  }
+  
+}
+  

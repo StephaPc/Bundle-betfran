@@ -1,0 +1,6 @@
+mixin carouselBancaHome(src, widthImg, heightImg, altImg)
+  div: div(class='tns-Carousel-Banking__content')
+    img(class="tns-Carousel-Banking__img img-fluid", src=`${src}`, alt=`${altImg}`, width=`${widthImg}`, height=`${heightImg}`)
+-for (var i = 0; i < carouselBancaHome.length; i++)
+    -var d = carouselBancaHome[i]
+    +carouselBancaHome(d.src, d.widthImg, d.heightImg, d.altImg)
