@@ -8,13 +8,14 @@
     &__login {
         background-color: var(--color-first);
         border: 1px solid var(--second-color);
-        color: var(--second-color);
+        color: var(--second-color); 
 
     }
     &__register {
         background-color: var(--Bg-ColorOrange);
         color: var(--color-first);
         border: none;
+
     }
     &__login:hover {
         cursor: pointer;

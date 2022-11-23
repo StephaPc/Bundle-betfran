@@ -72,6 +72,20 @@
       "nameclass": "btnlogin"
 		}
 	],
+	"promotionsHome": [
+		{
+			"img": "assets/img/Bono-de-bienvenida-seccion-bonus.jpg",
+			"url": "bono-bienvenida.html"
+		},
+		{
+			"img": "assets/img/Bono-de-casino-seccion-bonus.jpg",
+			"url": "bono-bienvenida100.html"
+		},
+		{
+			"img": "assets/img/Bono-de-recarga-seccion-bonus.jpg",
+			"url": "bono-recarga.html"
+		}
+	],
   "footerColum_1":[
     {
       "title": "Deportes",

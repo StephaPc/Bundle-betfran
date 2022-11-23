@@ -6,16 +6,8 @@
 		display: flex;
         justify-content: center;
         flex-direction: column;
-        padding: 1rem 1rem 1rem 1rem;
+        padding:0.5rem;
         color: white;
-
-        @include from(lg){
-           padding: 0.5rem;
-        }
-
-        @include from(xl){
-            padding: 1rem;
-         }
 	}
 	&__btn{
 		display: flex;
@@ -25,12 +17,7 @@
         padding-right: 1rem;
         gap: 1.5rem;
         margin-top: 15px;
-        @include from(lg){
-            gap: 0.5rem;
-         }
-         @include from(xl){
-            gap: 1.5rem;
-         }
+       
 	}
     &__forgot{
 		display: flex;
@@ -40,34 +27,22 @@
 	}
     &__input-label{
         border-radius: .4rem;
-        height: 2.7rem;
+        height: 2.3rem;
     }
 
     @include from(m){
-        max-height: 200px;
-    }
+        max-width:300px;
+     }
 
     @include from(lg){
-        max-height: 300px;
+       max-width:400px;
     }
 
-    @include from(xl){
-        min-width: 400px;
-        max-height: 400px;
-    }
+    
 
     
 }
 
 form{
     margin-bottom: 0;
-    padding: 15px 0;
-
-    @include from(lg){
-        padding: 0;
-    }
-
-    @include from(xl){
-        padding: 15px 0;
-    }
 }

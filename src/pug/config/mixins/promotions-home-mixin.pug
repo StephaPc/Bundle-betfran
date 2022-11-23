@@ -1,0 +1,6 @@
+mixin promotionsHome(img, url)
+    div: div(class='tns-promotion__content'): a(href=`${url}` alt="banner promotions")
+        img(class="tns-promotion__img", src=`${img}`, alt="banner promotions" width="547" height="254")
+-for (var i = 0; i < promotionsHome.length; i++)
+    -var d = promotionsHome[i]
+    +promotionsHome(d.img, d.url) 
