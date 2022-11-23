@@ -1,7 +1,6 @@
 .grid-container {
   margin: 50px auto;
   width: 91%;
-  height: 37vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1.5fr;
   gap: 1em;
@@ -16,25 +15,26 @@
       justify-content: center;
       align-items: center;
       color: white;
+      border: 2px solid #4e4e4e;
 
       &:nth-child(1) {
         grid-area: one;
-        background-color: #222E50;
+      
       }
 
       &:nth-child(2) {
         grid-area: two;
-        background-color: #007991;
+        
       }
 
       &:nth-child(3) {
         grid-area: three;
-        background-color: #439a86;
+      
       }
 
       &:nth-child(4) {
         grid-area: four;
-        background-color: #f6511d;
+        
       }
     }
 
@@ -58,5 +58,90 @@
 }
 
 
+.grid-box {
+  margin: 15px 15px;
+  height: 35vh;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 1fr 1fr;
+  gap: 1em;
+  grid-template-areas: 
+    'one one one two'
+    'one one one three';
 
+    &__grid-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
 
+      img{
+        width: 50%;
+        border-radius: 10px;
+      }
+
+      &:nth-child(1) {
+        grid-area: one;
+      }
+
+      &:nth-child(2) {
+        grid-area: two;
+      }
+
+      &:nth-child(3) {
+        grid-area: three;
+      }
+
+      &:nth-child(4) {
+        grid-area: four;
+        background-color: #f6511d;
+      }
+
+      
+    }
+
+    .box-video {
+      height: 79%;
+      overflow: hidden;
+      padding-bottom: 44.25%;
+      position: relative;
+
+      iframe{
+        border: none;
+        height: 100%;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 0;
+        width: 79%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+  }
+
+     /*IPAD PRO*/
+    @include fromTo(l,lg) {
+      grid-template-areas: 
+      'one one two two'
+      'one one three three';
+      grid-template-columns: 1fr 1fr 0.5fr 0.5fr;
+  }
+
+    /*IPAD*/
+    @include fromTo(m,l) {
+        grid-template-areas: 
+        'one one one one'
+        'two two three three';
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    /*MOBILE*/
+    @include fromTo(s,m) {
+        grid-template-areas: 
+        'one one one one'
+        'two two two two'
+        'three three three three';
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
