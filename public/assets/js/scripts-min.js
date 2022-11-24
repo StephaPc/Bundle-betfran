@@ -122,6 +122,30 @@ var topNav = exports.topNav = function topNav() {
 },{}],4:[function(require,module,exports){
 'use strict';
 
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+var videosHome = exports.videosHome = function videosHome() {
+	var d = document,
+	    video = d.getElementById('iframeVideo'),
+	    galeryItem = d.querySelectorAll('.img-video');
+
+	var _loop = function _loop(i) {
+		galeryItem[i].addEventListener('click', function (e) {
+			var newVideo = galeryItem[i].getAttribute('value');
+			e.preventDefault();
+			video.setAttribute('src', newVideo);
+		});
+	};
+
+	for (var i = 0; i < galeryItem.length; i++) {
+		_loop(i);
+	}
+};
+
+},{}],5:[function(require,module,exports){
+'use strict';
+
 var _topNav = require('./components/topNav');
 
 var _tnsSlider = require('./components/tns-slider');
@@ -130,14 +154,17 @@ var _modalLogin = require('./components/modal-login');
 
 var _modalLogin2 = _interopRequireDefault(_modalLogin);
 
+var _videosHome = require('./components/videos-home');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _topNav.topNav)();
 (0, _tnsSlider.tnsSingle)();
 (0, _tnsSlider.tnsPromotion)();
 (0, _tnsSlider.tnsCarouselBanking)();
+(0, _videosHome.videosHome)();
 _modalLogin2.default;
 
-},{"./components/modal-login":1,"./components/tns-slider":2,"./components/topNav":3}]},{},[4]);
+},{"./components/modal-login":1,"./components/tns-slider":2,"./components/topNav":3,"./components/videos-home":4}]},{},[5]);
 
 //# sourceMappingURL=scripts-min.js.map

@@ -1,13 +1,11 @@
-mixin videoHome(nameClass, video, src, alt, widthImg, heightImg, text)
+mixin videoHome(nameClass, video, src, alt, widthImg, heightImg, text, ifElse)
   div(class=`${nameClass}`)
-    -if (video !== '')
-        iframe(src=`${video}` width='100%' height='348px' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media gyroscope; picture-in-picture" allowfullscreen)
-        img(class='img-fluid' src=`${src}`, alt=`${alt}`, width=`${widthImg}`, height=`${heightImg}`)
-        p=`${text}`
+    -if (ifElse !== '')
+        iframe(id="iframeVideo" src=`${video}` width='100%' height='348px' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media gyroscope; picture-in-picture" allowfullscreen)
     -else
-        img(class='img-fluid' src=`${src}`, alt=`${alt}`, width=`${widthImg}`, height=`${heightImg}`)
+        img(class='img-fluid img-video' value=`${video}` src=`${src}`, alt=`${alt}`, width=`${widthImg}`, height=`${heightImg}`)
         p=`${text}`
 
 -for (var i = 0; i < videoHome.length; i++)
   -var d = videoHome[i]
-  +videoHome(d.nameClass, d.video, d.src, d.alt, d.widthImg, d.heightImg, d.text)
+  +videoHome(d.nameClass, d.video, d.src, d.alt, d.widthImg, d.heightImg, d.text, d.ifElse)
