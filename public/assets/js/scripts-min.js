@@ -152,18 +152,14 @@ var _tnsSlider = require('./components/tns-slider');
 
 var _modalLogin = require('./components/modal-login');
 
-var _modalLogin2 = _interopRequireDefault(_modalLogin);
-
 var _videosHome = require('./components/videos-home');
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _topNav.topNav)();
 (0, _tnsSlider.tnsSingle)();
 (0, _tnsSlider.tnsPromotion)();
 (0, _tnsSlider.tnsCarouselBanking)();
 (0, _videosHome.videosHome)();
-_modalLogin2.default;
+(0, _modalLogin.loginModal)();
 
 },{"./components/modal-login":1,"./components/tns-slider":2,"./components/topNav":3,"./components/videos-home":4}]},{},[5]);
 
