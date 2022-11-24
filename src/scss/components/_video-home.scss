@@ -16,6 +16,33 @@
       align-items: center;
       color: white;
       border: 2px solid #4e4e4e;
+      position: relative;
+
+      span{
+        font-weight: bold;
+        font-size: 1rem;
+      }
+
+      .icon{
+        font-size: 3rem;
+        color: #ff9c00 !important;
+        position: absolute;
+        left: 10%;
+      }
+
+      /*IPAD PRO*/
+      @include fromTo(l,xl) {
+        .icon{
+          font-size: 2rem;
+        }
+      }
+
+      /*MOBILE*/
+      @include fromTo(s,m) {
+        &.two{
+          height: 10vh;
+        }
+      }
 
       &:nth-child(1) {
         grid-area: one;
@@ -36,9 +63,11 @@
         grid-area: four;
         
       }
+
+      
     }
 
-    /*IPAD PRO*/
+    /*IPAD*/
     @include fromTo(m,l) {
         grid-template-areas: 
         'one one two two'
@@ -47,13 +76,34 @@
         grid-template-columns: 1fr 1fr 1fr 0.5fr;
     }
 
+    @include fromTo(m,lg) {
+      &__grid-item{
+
+        display: block;
+        text-align: center;
+      
+      .icon {
+        font-size: 2rem;
+        left: auto;
+        position: relative;
+        display: block;
+        padding-top: 26px;
+        text-align: center;
+      }
+    }
+    }
+
     /*MOBILE*/
     @include fromTo(s,m) {
         grid-template-areas: 
         'one one one one'
         'two two two two'
         'three three three three'
-        'four four four four'
+        'four four four four';
+
+        .icon {
+          font-size: 2rem;
+        }
     }
 }
 
@@ -67,16 +117,23 @@
   grid-template-areas: 
     'one one one two'
     'one one one three';
+  align-items: center;
 
     &__grid-item {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
+      display: inline-grid;
 
       img{
         width: 50%;
         border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      p{
+        text-align: center;
+        font-size: 1rem;
+        margin-top: auto;
+        margin-bottom: 0;
       }
 
       &:nth-child(1) {
@@ -134,14 +191,22 @@
         'one one one one'
         'two two three three';
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        &__grid-item p {
+          font-size: 0.83rem;
+      }
     }
 
     /*MOBILE*/
     @include fromTo(s,m) {
         grid-template-areas: 
         'one one one one'
-        'two two two two'
-        'three three three three';
+        'two two three three';
         grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+        height: auto;
+
+        &__grid-item p {
+          font-size: 0.83rem;
+        }
+      }
+    
 }

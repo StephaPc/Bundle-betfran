@@ -72,6 +72,35 @@
       "nameclass": "btnlogin"
 		}
 	],
+	"videoHome":[
+		{
+			"nameClass": "grid-box__grid-item box-video",
+			"video": "https://www.youtube.com/embed/watch?v=uAxeIWFXwa0&list=UUWwgs3Fo24Vp9mhN1ElSPLg&index=1",
+			"src": "",
+			"alt": "",
+			"widthImg": "",
+			"heightImg": "",
+			"text": ""
+		},
+		{
+			"nameClass": "grid-box__grid-item",
+			"video": "",
+			"src": "assets/img/video/unselect2.png",
+			"alt": "Pronosticos deportivos",
+			"widthImg": "785",
+			"heightImg": "392",
+			"text": "Pronósticos Deportivos"
+		},
+		{
+			"nameClass": "grid-box__grid-item",
+			"video": "",
+			"src": "assets/img/video/screen-videos1.png",
+			"alt": "Transferencias y retiros",
+			"widthImg": "781",
+			"heightImg": "390",
+			"text": "Transferencias y Retiros"
+		}
+	],
 	"promotionsHome": [
 		{
 			"img": "assets/img/Bono-de-bienvenida-seccion-bonus.jpg",

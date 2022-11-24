@@ -1,12 +1,13 @@
 div(class='grid-container')
   div(class='grid-container__grid-item')
     div(class='grid-box')
-      div(class='grid-box__grid-item box-video')
-        iframe(src='https://www.youtube.com/embed/watch?v=uAxeIWFXwa0&list=UUWwgs3Fo24Vp9mhN1ElSPLg&index=1' width='100%' height='348px' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media gyroscope; picture-in-picture" allowfullscreen)
-      div(class='grid-box__grid-item')
-        img(class='grid-box_image img-fluid' src='assets/img/video/unselect2.png', alt='Pronosticos deportivos' width='785' height='392')
-      div(class='grid-box__grid-item')
-        img(class='img-fluid' src='assets/img/video/screen-videos1.png', alt='Transferencias y retiros' width='781' height='390')
-  div(class='grid-container__grid-item') 2
-  div(class='grid-container__grid-item') 3
-  div(class='grid-container__grid-item') 4
+      include ../config/mixins/video-home-mixin
+  div(class='grid-container__grid-item two' href="promociones.html") 
+    i(class="fad fa-gift icon")
+    span Promociones y Bonos
+  div(class='grid-container__grid-item two' href="banca.html")
+    i(class="fas fa-money-check-alt icon")
+    span Recargas y Pagos
+  div(class='grid-container__grid-item two' href="contacto.html")
+    i(class="fas fa-hands-heart icon")
+    span Servicio al cliente

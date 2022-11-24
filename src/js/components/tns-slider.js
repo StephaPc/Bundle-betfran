@@ -48,6 +48,8 @@ export const tnsCarouselBanking = () =>{
         container       : '#tnsCarouselBanking',
         items           : 1,
         slideBy         : 1,
+        autoplay: true,
+		    autoplayButtonOutput: false,
         swipeAngle      : false,
         speed           : 400,
         edgePadding     : 40,
