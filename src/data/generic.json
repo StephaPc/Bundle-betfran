@@ -101,6 +101,26 @@
 			"text": "Transferencias y Retiros"
 		}
 	],
+	"cardsVideoHome":[
+		{
+			"nameClass": "grid-container__grid-item two",
+			"url": "promociones.html",
+			"iconClass": "fad fa-gift icon",
+			"text": "Promociones y Bonos"
+		},
+		{
+			"nameClass": "grid-container__grid-item two",
+			"url": "banca.html",
+			"iconClass": "fas fa-money-check-alt icon",
+			"text": "Recargas y Pagos"
+		},
+		{
+			"nameClass": "grid-container__grid-item two",
+			"url": "contacto.html",
+			"iconClass": "fas fa-hands-heart icon",
+			"text": "Servicio al cliente"
+		}
+	],
 	"promotionsHome": [
 		{
 			"img": "assets/img/Bono-de-bienvenida-seccion-bonus.jpg",

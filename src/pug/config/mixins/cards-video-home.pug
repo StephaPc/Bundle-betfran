@@ -1,0 +1,8 @@
+mixin cardsVideoHome(nameClass, url, iconClass, text)
+  div(class=`${nameClass}` href=`${url}`) 
+      i(class=`${iconClass}`)
+      span=`${text}`
+
+-for (var i = 0; i < cardsVideoHome.length; i++)
+  -var d = cardsVideoHome[i]
+  +cardsVideoHome(d.nameClass, d.url, d.iconClass, d.text)
