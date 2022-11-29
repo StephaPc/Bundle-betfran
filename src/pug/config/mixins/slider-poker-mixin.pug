@@ -1,8 +1,8 @@
 mixin sliderPoker(imgDk, imgMB)
-    div: div(class='tns-poker__content')
+    div: div(class='poker__banner')
         picture 
             source(media="(min-width: 640px)", srcset=`${imgDk}`, alt="Banner" width="1920" height="600")
-            img(class='tns-poker__img', src=`${imgMB}`, alt="Banner" width="1920" height="600")
+            img(class='poker__img', src=`${imgMB}`, alt="Banner" width="1920" height="600")
 -for (var i = 0; i < sliderPoker.length; i++)
     -var d = sliderPoker[i]
     +sliderPoker(d.imgDk, d.imgMB)

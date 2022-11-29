@@ -2,8 +2,8 @@ import {topNav} from './components/topNav'
 import {tnsSingle, tnsPromotion, tnsCarouselBanking, tnsPoker } from './components/tns-slider';
 import {modalLogin} from './components/modal-login';
 import {videosHome} from './components/videos-home';
-import {tablecaballos} from './components/tablecaballos';
-//import {tabs} from './components/tabs';
+import tablecaballos from './components/tablecaballos';
+import tabs from './components/tabs';
 
 (()=>{
 
@@ -22,7 +22,10 @@ tnsPoker();
 else if (document.body.classList.contains('Caballos')) {
 tablecaballos();
 }
+else if (document.body.classList.contains('Banca')) {
+  tabs();
+}
 
-//tabs();
+
 
 })();

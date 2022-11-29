@@ -4,7 +4,7 @@
     width: 91%;
     max-width: 91%;
     margin: 0 auto;
-    &_content{
+    &__content{
         width: 80%;
         max-width: 80%;
         margin: 2rem auto;
@@ -13,11 +13,29 @@
           font-size: 1rem;
           text-align: justify;
         }
+
+         /*MOBILE*/
+      @include fromTo(s,m) {
+        width: 100%;
+        max-width: 100%;
+      }
+        
+    }
+    &__banner{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        source{
+          border-radius: 10px;
+        }
+        img{
+          border-radius: 10px;
+        }
     }
 }
 
 .sectionApp {
-    margin: 1rem;
+    margin: 1rem 1rem 5rem 1rem;
     display: flex;
     justify-content: center;
 
@@ -31,11 +49,15 @@
         text-align: center;
         font-weight: bold;
         margin-bottom: 4rem;
+        font-size: 1.5rem;
     }
 
     &__texto {
         text-align: center;
         color: var(--color-text-white);
+        font-size: 1rem;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     &__card-Download{
@@ -59,6 +81,7 @@
         display: block;
         color: var(--color-orange);
         text-align: center;
+        font-size: 1rem;
         &:hover {
             text-decoration: underline;
         }

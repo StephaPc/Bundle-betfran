@@ -1,0 +1,72 @@
+div(class='banca ed-container')
+    div(class='ed-item')
+        div(class='tabs-container')
+            ul(class='tabs-container__tabs' id='tabs')
+                li(class='tabs-container__tab is-active') Depósitos
+                li(class='tabs-container__tab') Retiros
+            div(class='tabs-container__panels')
+                div(class='tabs-container__panel is-active ed-container')
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src=`assets/img/banking-internal/dolar.png`, alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banking/depositos/dolardolar.md
+                            a(class="btn btn__banca btnlogin") DEPOSITA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src=`assets/img/banking-internal/bitcoin.png`, alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banking/depositos/cripto-moneda.md
+                            a(class="btn btn__banca btnlogin") DEPOSITA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src=`assets/img/banking-internal/ria.png`, alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banking/depositos/ria-moneygram.md
+                            a(class="btn btn__banca btnlogin") DEPOSITA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src=`assets/img/banking-internal/master.png`, alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banking/depositos/visa-mastercard.md
+                            a(class="btn btn__banca btnlogin") DEPOSITA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src=`assets/img/banking-internal/astropay.png`, alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banking/depositos/astropay.md
+                            a(class="btn btn__banca btnlogin") DEPOSITA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src=`assets/img/banking-internal/safety.png`, alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banking/depositos/safetypay.md
+                            a(class="btn btn__banca btnlogin") DEPOSITA AHORA
+                div(class='tabs-container__panel ed-container')
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src="assets/img/banking-internal/dolar.png", alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banking/retiros/dolardolar.md
+                            a(class="btn btn__banca btnlogin") RETIRA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src="assets/img/banking-internal/ria.png", alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banking/retiros/ria-moneygram.md
+                            a(class="btn btn__banca btnlogin") RETIRA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src="assets/img/banking-internal/bitcoin.png", alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banking/retiros/cripto-moneda.md
+                            a(class="btn btn__banca btnlogin") RETIRA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src="assets/img/banking-internal/astropay.png", alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banking/retiros/astropay.md
+                            a(class="btn btn__banca btnlogin") RETIRA AHORA
+                    p(class="text") Si solicitas un retiro sin haber apostado una cantidad igual o superior a la cantidad depositada, podemos solicitarte que realices una apuesta por la totalidad o parte de los depósitos anteriores efectuados y/o cobrar una tasa por el retiro solicitado. Así mismo, si el depósito por medio de tarjeta de crédito no ha sido jugado en su totalidad, las solicitudes de retiro tendrán que esperar 2 meses para ser procesados si los mismos NO son jugados.
+        div(class="btn-register-internal")
+            a(class="btn btn__register" href="registro.html") Regístrate Ya
