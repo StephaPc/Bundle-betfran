@@ -1,23 +1,30 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 "use strict";
 
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
 var modal = document.getElementById("modal-login");
 var btn = document.querySelectorAll(".btnlogin");
 var span = document.getElementsByClassName("loginModal__close")[0];
 
-function openModal() {
-    console.log("open");
-    modal.style.display = "block";
-}
-function closeModal() {
-    modal.style.display = "none";
+function modalLogin() {
+    function openModal() {
+        console.log("open");
+        modal.style.display = "block";
+    }
+    function closeModal() {
+        modal.style.display = "none";
+    }
+
+    for (var i = 0; i < btn.length; i++) {
+        btn[i].addEventListener('click', openModal);
+    }
+
+    span.addEventListener('click', closeModal);
 }
 
-for (var i = 0; i < btn.length; i++) {
-    btn[i].addEventListener('click', openModal);
-}
-
-span.addEventListener('click', closeModal);
+exports.modalLogin = modalLogin;
 
 },{}],2:[function(require,module,exports){
 'use strict';
@@ -60,34 +67,6 @@ var tablecaballos = function tablecaballos() {
 exports.default = tablecaballos;
 
 },{}],3:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-var tabs = function tabs() {
-    var d = document,
-        tabs = Array.prototype.slice.apply(d.querySelectorAll('.tabs-container__tab')),
-        panels = Array.prototype.slice.apply(d.querySelectorAll('.tabs-container__panel'));
-
-    d.getElementById('tabs').addEventListener('click', function (e) {
-        if (e.target.classList.contains('tabs-container__tab')) {
-            var i = tabs.indexOf(e.target);
-            tabs.map(function (tab) {
-                return tab.classList.remove('is-active');
-            });
-            tabs[i].classList.add('is-active');
-            panels.map(function (tab) {
-                return tab.classList.remove('is-active');
-            });
-            panels[i].classList.add('is-active');
-        }
-    });
-};
-
-exports.default = tabs;
-
-},{}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -180,7 +159,7 @@ var tnsPoker = exports.tnsPoker = function tnsPoker() {
   });
 };
 
-},{}],5:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -201,7 +180,7 @@ var topNav = exports.topNav = function topNav() {
 	myFunction();
 };
 
-},{}],6:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -225,7 +204,7 @@ var videosHome = exports.videosHome = function videosHome() {
 	}
 };
 
-},{}],7:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 'use strict';
 
 var _topNav = require('./components/topNav');
@@ -238,18 +217,27 @@ var _videosHome = require('./components/videos-home');
 
 var _tablecaballos = require('./components/tablecaballos');
 
-var _tabs = require('./components/tabs');
+//import {tabs} from './components/tabs';
 
-(0, _topNav.topNav)();
-(0, _tnsSlider.tnsSingle)();
-(0, _tnsSlider.tnsPromotion)();
-(0, _tnsSlider.tnsCarouselBanking)();
-(0, _videosHome.videosHome)();
-(0, _tnsSlider.tnsPoker)();
-(0, _modalLogin.loginModal)();
-(0, _tablecaballos.tablecaballos)();
-(0, _tabs.tabs)();
+(function () {
 
-},{"./components/modal-login":1,"./components/tablecaballos":2,"./components/tabs":3,"./components/tns-slider":4,"./components/topNav":5,"./components/videos-home":6}]},{},[7]);
+  (0, _topNav.topNav)();
+  (0, _tnsSlider.tnsCarouselBanking)();
+  (0, _modalLogin.modalLogin)();
+
+  if (document.body.classList.contains('home')) {
+    (0, _tnsSlider.tnsSingle)();
+    (0, _tnsSlider.tnsPromotion)();
+    (0, _videosHome.videosHome)();
+  } else if (document.body.classList.contains('Poker')) {
+    (0, _tnsSlider.tnsPoker)();
+  } else if (document.body.classList.contains('Caballos')) {
+    (0, _tablecaballos.tablecaballos)();
+  }
+
+  //tabs();
+})();
+
+},{"./components/modal-login":1,"./components/tablecaballos":2,"./components/tns-slider":3,"./components/topNav":4,"./components/videos-home":5}]},{},[6]);
 
 //# sourceMappingURL=scripts-min.js.map

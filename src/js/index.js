@@ -1,16 +1,28 @@
 import {topNav} from './components/topNav'
 import {tnsSingle, tnsPromotion, tnsCarouselBanking, tnsPoker } from './components/tns-slider';
-import {loginModal} from './components/modal-login';
+import {modalLogin} from './components/modal-login';
 import {videosHome} from './components/videos-home';
 import {tablecaballos} from './components/tablecaballos';
-import {tabs} from './components/tabs';
+//import {tabs} from './components/tabs';
+
+(()=>{
 
 topNav();
+tnsCarouselBanking();
+modalLogin();
+
+if (document.body.classList.contains('home')) {
 tnsSingle();	
 tnsPromotion();
-tnsCarouselBanking();
 videosHome();
+}
+else if (document.body.classList.contains('Poker')) {
 tnsPoker();
-loginModal();
+}
+else if (document.body.classList.contains('Caballos')) {
 tablecaballos();
-tabs();
+}
+
+//tabs();
+
+})();
