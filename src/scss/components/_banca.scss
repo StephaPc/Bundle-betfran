@@ -16,10 +16,20 @@
   .text{
     font-size: 1rem;
   }
-  &__button{
-      display: flex;
-      justify-content: center;
-      margin: 2rem 0;
+  .btn__banca{
+    display: flex;
+    justify-content: center;
+    color: #fff!important;
+    background-color: hsla(0,0%,39.6%,.25098039215686274);
+    text-transform: uppercase;
+    font-weight: 400;
+    border: 1px solid #4e4e4e;
+    padding: 0.3rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: 11px;
+    left: 0;
+    right: 0;
   }
   &__content{
       display: flex;
@@ -28,6 +38,7 @@
       width: 90%;
       padding: 1rem;
       margin: 0 auto;
+      position: relative;
   }
   &__card{
       display: flex;
@@ -64,6 +75,7 @@
       &__content{
           margin: 0;
           width: 60%;
+          position: relative;
       }
   }
 }
