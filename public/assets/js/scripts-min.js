@@ -23,6 +23,74 @@ span.addEventListener('click', closeModal);
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+var tablecaballos = function tablecaballos() {
+	var hideTable = function hideTable() {
+		var tables = document.querySelectorAll('.lorem');
+		for (var index = 0; index < tables.length; index++) {
+			if (index == 1) {
+				tables[index].style.display = 'block';
+			} else {
+				tables[index].style.display = 'none';
+			}
+		}
+	}; //fin de ocultar tablas
+
+	var d = document,
+	    tabs = Array.prototype.slice.apply(d.querySelectorAll('.tabs-container__tab')),
+	    tableTap = d.querySelectorAll('.lorem');
+
+	var _loop = function _loop(index) {
+		tabs[index].addEventListener('click', function (e) {
+			var i = tabs.indexOf(e.target);
+			var x = tabs[index];
+			hideTable();
+			var table = document.querySelector('.' + x.id);
+			table.style.display = 'block';
+			table.classList.add('is-active');
+		});
+	};
+
+	for (var index = 0; index < tabs.length; index++) {
+		_loop(index);
+	}
+};
+
+exports.default = tablecaballos;
+
+},{}],3:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var tabs = function tabs() {
+    var d = document,
+        tabs = Array.prototype.slice.apply(d.querySelectorAll('.tabs-container__tab')),
+        panels = Array.prototype.slice.apply(d.querySelectorAll('.tabs-container__panel'));
+
+    d.getElementById('tabs').addEventListener('click', function (e) {
+        if (e.target.classList.contains('tabs-container__tab')) {
+            var i = tabs.indexOf(e.target);
+            tabs.map(function (tab) {
+                return tab.classList.remove('is-active');
+            });
+            tabs[i].classList.add('is-active');
+            panels.map(function (tab) {
+                return tab.classList.remove('is-active');
+            });
+            panels[i].classList.add('is-active');
+        }
+    });
+};
+
+exports.default = tabs;
+
+},{}],4:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var tnsSingle = exports.tnsSingle = function tnsSingle() {
@@ -98,7 +166,21 @@ var tnsCarouselBanking = exports.tnsCarouselBanking = function tnsCarouselBankin
   });
 };
 
-},{}],3:[function(require,module,exports){
+var tnsPoker = exports.tnsPoker = function tnsPoker() {
+  var slider = tns({
+    container: '#tnsPoker',
+    items: 1,
+    slideBy: 1,
+    speed: 1000,
+    autoplay: true,
+    autoplayButtonOutput: false,
+    mode: 'gallery',
+    mouseDrag: true,
+    controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
+  });
+};
+
+},{}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -119,7 +201,7 @@ var topNav = exports.topNav = function topNav() {
 	myFunction();
 };
 
-},{}],4:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -143,7 +225,7 @@ var videosHome = exports.videosHome = function videosHome() {
 	}
 };
 
-},{}],5:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 'use strict';
 
 var _topNav = require('./components/topNav');
@@ -154,13 +236,20 @@ var _modalLogin = require('./components/modal-login');
 
 var _videosHome = require('./components/videos-home');
 
+var _tablecaballos = require('./components/tablecaballos');
+
+var _tabs = require('./components/tabs');
+
 (0, _topNav.topNav)();
 (0, _tnsSlider.tnsSingle)();
 (0, _tnsSlider.tnsPromotion)();
 (0, _tnsSlider.tnsCarouselBanking)();
 (0, _videosHome.videosHome)();
+(0, _tnsSlider.tnsPoker)();
 (0, _modalLogin.loginModal)();
+(0, _tablecaballos.tablecaballos)();
+(0, _tabs.tabs)();
 
-},{"./components/modal-login":1,"./components/tns-slider":2,"./components/topNav":3,"./components/videos-home":4}]},{},[5]);
+},{"./components/modal-login":1,"./components/tablecaballos":2,"./components/tabs":3,"./components/tns-slider":4,"./components/topNav":5,"./components/videos-home":6}]},{},[7]);
 
 //# sourceMappingURL=scripts-min.js.map

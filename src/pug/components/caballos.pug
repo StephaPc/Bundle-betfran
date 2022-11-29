@@ -1,0 +1,11 @@
+section(class="caballos")
+    div(class="caballos__banner")
+        picture
+            source(media="(min-width: 640px)", srcset="assets/img/slider-caballos-dk.jpg")
+            img(src="assets/img/slider-caballos-mb.jpg", alt="Banner caballos")
+    div(class="caballos__content")
+        include:markdown-it(html) ../md/page-caballos.md
+        div(class="caballos__table")
+            include ../components/table-caballos
+div(class="btn-register-internal")
+  a(class="btn btn__register" href="registro.html") Regístrate Ya

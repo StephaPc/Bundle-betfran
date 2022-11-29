@@ -1,0 +1,9 @@
+section(class="apuestasEnVivo")
+    div(class="apuestasEnVivo__banner")
+        picture
+            source(media="(min-width: 640px)", srcset="assets/img/slider-apuestas-en-vivo-dk.jpg")
+            img(src="assets/img/slider-apuestas-en-vivo-mb.jpg", alt="Banner apuestas en vivo")
+    div(class="apuestasEnVivo__content")
+        include:markdown-it(html) ../md/page-apuestas-en-vivo.md
+div(class="btn-register-internal")
+  a(class="btn btn__register" href="registro.html") Regístrate Ya

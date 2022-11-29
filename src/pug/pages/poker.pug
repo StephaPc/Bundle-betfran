@@ -1,0 +1,12 @@
+extends ../config/template
+append config
+	-currentPage		= "Poker"
+	-siteName			= 'Betfran' 
+	-content			= 'content'
+	-pageDescription	= 'Contenido poker'
+block main-header
+block main-container
+	include ../components/poker
+	include ../components/download-app
+block main-footer
+block scripts 

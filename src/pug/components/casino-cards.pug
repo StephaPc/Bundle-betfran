@@ -1,0 +1,7 @@
+mixin card(cardImage, cardTitle)
+	div(class="ed-item s-1 m-50 l-25")
+		img(src=cardImage)
+		p=cardTitle
+-for (var i = 0; i < cardsCasino.length; i++)
+	-var c = cardsCasino[i]
+	+card(c.img, c.title)
