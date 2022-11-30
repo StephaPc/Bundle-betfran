@@ -240,6 +240,23 @@
 			"imgMB": "assets/img/poker/fast-fold.jpg"
 		}
 	],
+	"pagePromotions": [
+		{
+			"title": "Bono De Bienvenida",
+			"url": "bono-bienvenida-deportes.html",
+			"src": "assets/img/promotions/Bono-de-bienvenida-seccion-bonus.jpg"
+		},
+		{
+			"title": "Bono De Recarga",
+			"url": "bono-recarga.html",
+			"src": "assets/img/promotions/Bono-de-recarga-seccion-bonus.jpg"
+		},
+		{
+			"title": "Bono Bienvenida Casino",
+			"url": "bono-bienvenida-casino.html",
+			"src": "assets/img/promotions/Bono-de-casino-seccion-bonus.jpg"
+		}
+	],
   "footerColum_1":[
     {
       "title": "Deportes",

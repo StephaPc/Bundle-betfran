@@ -1,0 +1,10 @@
+section(class="bono")
+    div(class="bono__banner")
+        picture
+            source(media="(min-width: 640px)" srcset="assets/img/promotions/Bono-de-recarga-seccion-bonus.jpg" alt="Banner bono recarga" width="547" height="254")
+            img(src="assets/img/promotions/Bono-de-recarga-seccion-bonus.jpg" alt="Banner bono recarga" width="547" height="254")
+    div(class="bono__content")
+        include:markdown-it(html) ../md/bonuses/bono-recarga.md
+    div(class="btn-register-internal")
+        a(class="btn btn__register" href="registro.html") Regístrate Ya
+    include ../components/promotions-home

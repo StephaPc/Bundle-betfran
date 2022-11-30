@@ -269,6 +269,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     (0, _tablecaballos2.default)();
   } else if (document.body.classList.contains('Banca')) {
     (0, _tabs2.default)();
+  } else if (document.body.classList.contains('BonoBienvenidaDeportes')) {
+    (0, _tnsSlider.tnsPromotion)();
+  } else if (document.body.classList.contains('BonoBienvenidaCasino')) {
+    (0, _tnsSlider.tnsPromotion)();
+  } else if (document.body.classList.contains('BonoRecarga')) {
+    (0, _tnsSlider.tnsPromotion)();
   }
 })();
 

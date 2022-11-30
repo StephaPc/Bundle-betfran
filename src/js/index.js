@@ -25,6 +25,15 @@ tablecaballos();
 else if (document.body.classList.contains('Banca')) {
   tabs();
 }
+else if (document.body.classList.contains('BonoBienvenidaDeportes')) {
+  tnsPromotion();
+}
+else if (document.body.classList.contains('BonoBienvenidaCasino')) {
+  tnsPromotion();
+}
+else if (document.body.classList.contains('BonoRecarga')) {
+  tnsPromotion();
+}
 
 
 
