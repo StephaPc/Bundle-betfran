@@ -2,7 +2,7 @@ import {topNav} from './components/topNav'
 import {tnsSingle, tnsPromotion, tnsCarouselBanking, tnsPoker } from './components/tns-slider';
 import {modalLogin} from './components/modal-login';
 import {videosHome} from './components/videos-home';
-import tablecaballos from './components/tablecaballos';
+import {tablecaballos} from './components/tablecaballos';
 import tabs from './components/tabs';
 
 (()=>{

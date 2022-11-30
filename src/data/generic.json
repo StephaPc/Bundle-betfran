@@ -317,7 +317,7 @@
 					"Tipo": "Tipo",
 					"LimitesP": "Límites 1ro/2do/3ro",
 					"LimitesG": "Límites (GIMMICKS)",
-					"Rebate": "REBATE %",
+					"Rebate": "",
 					"id"	: "tableOne"
 				},
 				{
@@ -326,7 +326,7 @@
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "$1,000",
 					"LimitesGimmicks" : "$100",
-					"Rebate": "7%"
+					"Rebate": ""
 				},
 				{
 					"pista": "Belmont Park",
@@ -998,7 +998,7 @@
 				{
 					"Pistas": "Galgos",
 					"Zona": "Time Zone",
-					"Tipo": "",
+					"Tipo": "Tipo",
 					"LimitesP": "WIN/PLACE/SHOW/LIMITS",
 					"LimitesG": "GIMMICKS LIMITS",
 					"Rebate": "REBATE %",
@@ -1023,7 +1023,7 @@
 				{
 					"pista": "Jacksonville Park Evening",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1091,7 +1091,7 @@
 			[
 				{
 					"Pistas": "Internacional",
-					"Pais": "Country",
+					"Zona": "ZONA",
 					"Tipo": "Type",
 					"LimitesP": "WIN/PLACE/SHOW LIMITS",
 					"LimitesG": "GIMMICKS LIMITS",
@@ -1100,23 +1100,15 @@
 				},
 				{
 					"pista": "Ascot Racecourse",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "$250",
 					"LimitesGimmicks" : "$50",
 					"Rebate": "4%"
 				},
 				{
-					"pista": "Ascot Racecourse",
-					"pais": "UK",
-					"tipo" : "Thoroughbred",
-					"LimitesPosicion" : "",
-					"LimitesGimmicks" : "",
-					"Rebate": ""
-				},
-				{
 					"pista": "Ayr",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1124,7 +1116,7 @@
 				},
 				{
 					"pista": "Ballinrobe",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1132,7 +1124,7 @@
 				},
 				{
 					"pista": "Bangor-on-Dee",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1140,7 +1132,7 @@
 				},
 				{
 					"pista": "Bath",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1148,7 +1140,7 @@
 				},
 				{
 					"pista": "Bellewstown",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1156,7 +1148,7 @@
 				},
 				{
 					"pista": "Beverley",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1164,7 +1156,7 @@
 				},
 				{
 					"pista": "Brighton",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1172,7 +1164,7 @@
 				},
 				{
 					"pista": "Carlisle",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1180,7 +1172,7 @@
 				},
 				{
 					"pista": "Cartmel",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1188,7 +1180,7 @@
 				},
 				{
 					"pista": "Catterick",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1196,7 +1188,7 @@
 				},
 				{
 					"pista": "Chelmsford City",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1204,7 +1196,7 @@
 				},
 				{
 					"pista": "Cheltenham",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1212,7 +1204,7 @@
 				},
 				{
 					"pista": "Chepstow",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1220,7 +1212,7 @@
 				},
 				{
 					"pista": "Clonmel",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1228,7 +1220,7 @@
 				},
 				{
 					"pista": "Cork Racecourse",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1236,7 +1228,7 @@
 				},
 				{
 					"pista": "Curragh",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1244,7 +1236,7 @@
 				},
 				{
 					"pista": "Deauville-La Touques",
-					"pais": "France",
+					"zonaHoraria": "France",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1252,7 +1244,7 @@
 				},
 				{
 					"pista": "Doncaster Racecourse",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1260,7 +1252,7 @@
 				},
 				{
 					"pista": "Down Royal",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1268,7 +1260,7 @@
 				},
 				{
 					"pista": "Downpatrick",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1276,7 +1268,7 @@
 				},
 				{
 					"pista": "Dundalk",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1284,7 +1276,7 @@
 				},
 				{
 					"pista": "Durbanville",
-					"pais": "South Africa",
+					"zonaHoraria": "South Africa",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1292,7 +1284,7 @@
 				},
 				{
 					"pista": "Epsom Downs",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1300,7 +1292,7 @@
 				},
 				{
 					"pista": "Exeter",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1308,7 +1300,7 @@
 				},
 				{
 					"pista": "Fairview",
-					"pais": "South Africa",
+					"zonaHoraria": "South Africa",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1316,7 +1308,7 @@
 				},
 				{
 					"pista": "Fairyhouse Racecourse",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1324,7 +1316,7 @@
 				},
 				{
 					"pista": "Fakenham",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1332,7 +1324,7 @@
 				},
 				{
 					"pista": "Ffos Las",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1340,7 +1332,7 @@
 				},
 				{
 					"pista": "Flamingo",
-					"pais": "South Africa",
+					"zonaHoraria": "South Africa",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1348,7 +1340,7 @@
 				},
 				{
 					"pista": "Fontwell",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1356,7 +1348,7 @@
 				},
 				{
 					"pista": "Galway",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1364,7 +1356,7 @@
 				},
 				{
 					"pista": "Goodwood",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1372,7 +1364,7 @@
 				},
 				{
 					"pista": "Gowran",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1380,7 +1372,7 @@
 				},
 				{
 					"pista": "Greyville",
-					"pais": "South Africa",
+					"zonaHoraria": "South Africa",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1388,7 +1380,7 @@
 				},
 				{
 					"pista": "Hamilton",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1396,7 +1388,7 @@
 				},
 				{
 					"pista": "Happy Valley",
-					"pais": "Hong Kong",
+					"zonaHoraria": "Hong Kong",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1404,7 +1396,7 @@
 				},
 				{
 					"pista": "Haydock",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1412,7 +1404,7 @@
 				},
 				{
 					"pista": "Hexham",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1420,7 +1412,7 @@
 				},
 				{
 					"pista": "Huntingdon",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1428,7 +1420,7 @@
 				},
 				{
 					"pista": "Kelso",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1436,7 +1428,7 @@
 				},
 				{
 					"pista": "Kempton",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1444,7 +1436,7 @@
 				},
 				{
 					"pista": "Kenilworth",
-					"pais": "South Africa",
+					"zonaHoraria": "South Africa",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1452,7 +1444,7 @@
 				},
 				{
 					"pista": "Kilbeggan",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1460,7 +1452,7 @@
 				},
 				{
 					"pista": "Killarney",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1468,7 +1460,7 @@
 				},
 				{
 					"pista": "Laytown",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1476,7 +1468,7 @@
 				},
 				{
 					"pista": "Leicester",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1484,7 +1476,7 @@
 				},
 				{
 					"pista": "Leopardstown",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1492,7 +1484,7 @@
 				},
 				{
 					"pista": "Limerick",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1500,7 +1492,7 @@
 				},
 				{
 					"pista": "Lingfield",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1508,7 +1500,7 @@
 				},
 				{
 					"pista": "Listowel",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1516,7 +1508,7 @@
 				},
 				{
 					"pista": "Longchamp",
-					"pais": "France",
+					"zonaHoraria": "France",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1524,7 +1516,7 @@
 				},
 				{
 					"pista": "Ludlow",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1532,7 +1524,7 @@
 				},
 				{
 					"pista": "Maisons-Laffitte Racecourse",
-					"pais": "France",
+					"zonaHoraria": "France",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1540,7 +1532,7 @@
 				},
 				{
 					"pista": "Market Rasen",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1548,7 +1540,7 @@
 				},
 				{
 					"pista": "Musselburgh",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1556,7 +1548,7 @@
 				},
 				{
 					"pista": "Naas Racecourse",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1564,7 +1556,7 @@
 				},
 				{
 					"pista": "Navan",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1572,7 +1564,7 @@
 				},
 				{
 					"pista": "Newbury Racecourse",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1580,7 +1572,7 @@
 				},
 				{
 					"pista": "Newcastle",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1588,7 +1580,7 @@
 				},
 				{
 					"pista": "Newmarket",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1596,7 +1588,7 @@
 				},
 				{
 					"pista": "Newton Abbot",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1604,7 +1596,7 @@
 				},
 				{
 					"pista": "Nottingham",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1612,7 +1604,7 @@
 				},
 				{
 					"pista": "Perth",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1620,7 +1612,7 @@
 				},
 				{
 					"pista": "Plumpton",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1628,7 +1620,7 @@
 				},
 				{
 					"pista": "Pontefract",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1636,7 +1628,7 @@
 				},
 				{
 					"pista": "Punchestown",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1644,7 +1636,7 @@
 				},
 				{
 					"pista": "Redcar",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1652,7 +1644,7 @@
 				},
 				{
 					"pista": "Ripon",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1660,7 +1652,7 @@
 				},
 				{
 					"pista": "Roscommon",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1668,7 +1660,7 @@
 				},
 				{
 					"pista": "Salisbury",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1676,7 +1668,7 @@
 				},
 				{
 					"pista": "Sandown",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1684,7 +1676,7 @@
 				},
 				{
 					"pista": "Scottsville",
-					"pais": "South Africa",
+					"zonaHoraria": "South Africa",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1692,7 +1684,7 @@
 				},
 				{
 					"pista": "Sedgefield",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1700,7 +1692,7 @@
 				},
 				{
 					"pista": "Sha Tin",
-					"pais": "Hong Kong",
+					"zonaHoraria": "Hong Kong",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1708,7 +1700,7 @@
 				},
 				{
 					"pista": "Sligo",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1716,7 +1708,7 @@
 				},
 				{
 					"pista": "Southwell",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1724,7 +1716,7 @@
 				},
 				{
 					"pista": "Stratford",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1732,7 +1724,7 @@
 				},
 				{
 					"pista": "Taunton",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1740,7 +1732,7 @@
 				},
 				{
 					"pista": "Thirsk",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1748,7 +1740,7 @@
 				},
 				{
 					"pista": "Thurles",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1756,7 +1748,7 @@
 				},
 				{
 					"pista": "Tipperary",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1764,7 +1756,7 @@
 				},
 				{
 					"pista": "Towcester",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1772,7 +1764,7 @@
 				},
 				{
 					"pista": "Tramore",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1780,7 +1772,7 @@
 				},
 				{
 					"pista": "Turffontein",
-					"pais": "South Africa",
+					"zonaHoraria": "South Africa",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1788,7 +1780,7 @@
 				},
 				{
 					"pista": "Uttoxeter",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1796,7 +1788,7 @@
 				},
 				{
 					"pista": "Vaal",
-					"pais": "South Africa",
+					"zonaHoraria": "South Africa",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1804,7 +1796,7 @@
 				},
 				{
 					"pista": "Warwick",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1812,7 +1804,7 @@
 				},
 				{
 					"pista": "Wetherby",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1820,7 +1812,7 @@
 				},
 				{
 					"pista": "Wexford",
-					"pais": "Ireland",
+					"zonaHoraria": "Ireland",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1828,7 +1820,7 @@
 				},
 				{
 					"pista": "Wincanton",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1836,7 +1828,7 @@
 				},
 				{
 					"pista": "Windsor",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1844,7 +1836,7 @@
 				},
 				{
 					"pista": "Wolverhampton",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1852,7 +1844,7 @@
 				},
 				{
 					"pista": "Worcester",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1860,7 +1852,7 @@
 				},
 				{
 					"pista": "Yarmouth",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
@@ -1868,7 +1860,7 @@
 				},
 				{
 					"pista": "York",
-					"pais": "UK",
+					"zonaHoraria": "UK",
 					"tipo" : "Thoroughbred",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",

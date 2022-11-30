@@ -32,18 +32,13 @@ exports.modalLogin = modalLogin;
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
-var tablecaballos = function tablecaballos() {
+var tablecaballos = exports.tablecaballos = function tablecaballos() {
 	var hideTable = function hideTable() {
 		var tables = document.querySelectorAll('.lorem');
 		for (var index = 0; index < tables.length; index++) {
-			if (index == 1) {
-				tables[index].style.display = 'block';
-			} else {
-				tables[index].style.display = 'none';
-			}
+			tables[index].style.display = 'none';
 		}
-	}; //fin de ocultar tablas
-
+	};
 	var d = document,
 	    tabs = Array.prototype.slice.apply(d.querySelectorAll('.tabs-container__tab')),
 	    tableTap = d.querySelectorAll('.lorem');
@@ -55,7 +50,6 @@ var tablecaballos = function tablecaballos() {
 			hideTable();
 			var table = document.querySelector('.' + x.id);
 			table.style.display = 'block';
-			table.classList.add('is-active');
 		});
 	};
 
@@ -63,8 +57,6 @@ var tablecaballos = function tablecaballos() {
 		_loop(index);
 	}
 };
-
-exports.default = tablecaballos;
 
 },{}],3:[function(require,module,exports){
 'use strict';
@@ -245,8 +237,6 @@ var _videosHome = require('./components/videos-home');
 
 var _tablecaballos = require('./components/tablecaballos');
 
-var _tablecaballos2 = _interopRequireDefault(_tablecaballos);
-
 var _tabs = require('./components/tabs');
 
 var _tabs2 = _interopRequireDefault(_tabs);
@@ -266,7 +256,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   } else if (document.body.classList.contains('Poker')) {
     (0, _tnsSlider.tnsPoker)();
   } else if (document.body.classList.contains('Caballos')) {
-    (0, _tablecaballos2.default)();
+    (0, _tablecaballos.tablecaballos)();
   } else if (document.body.classList.contains('Banca')) {
     (0, _tabs2.default)();
   } else if (document.body.classList.contains('BonoBienvenidaDeportes')) {
