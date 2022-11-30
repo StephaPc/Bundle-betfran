@@ -1,14 +1,14 @@
 .section-promotions{
-  margin-top: 8rem;
-  @media (min-width: 474px) {
-      margin-top: 5rem;
-  }
+ 
   &__content{
       margin: 0 auto;
-      width: 80%;
+      width: 30%;
       max-width: 1200px;
-      @media (min-width: 640px) {
-          width: 40%;
+      @media (max-width: 960px) {
+        width: 50%;
+    }
+      @media (max-width: 570px) {
+          width: 80%;
       }
   }
   &__title{
@@ -16,6 +16,7 @@
       font-weight: 600;
       margin: 2rem 0;
       color: var(--color-white);
+      text-align: center;
       @media (min-width: 640px) {
           font-size: 26px;
       }
