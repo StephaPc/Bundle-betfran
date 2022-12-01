@@ -312,18 +312,18 @@
 			"table": 
 			[
 				{
-					"Pistas": "Pistas Principales",
-					"Zona": "Zona Horaria",
+					"Pistas": "HIPÓDROMO",
+					"Zona": "Zona",
 					"Tipo": "Tipo",
-					"LimitesP": "Límites 1ro/2do/3ro",
-					"LimitesG": "Límites (GIMMICKS)",
+					"LimitesP": "1ero/2do/3ero LIMITES",
+					"LimitesG": "COMBINADAS LIMITES",
 					"Rebate": "",
 					"id"	: "tableOne"
 				},
 				{
 					"pista": "Aqueduct",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "$1,000",
 					"LimitesGimmicks" : "$100",
 					"Rebate": ""
@@ -331,7 +331,7 @@
 				{
 					"pista": "Belmont Park",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -339,7 +339,7 @@
 				{
 					"pista": "Churchill Downs",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -347,7 +347,7 @@
 				{
 					"pista": "Del Mar",
 					"zonaHoraria": "PST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" :"",
 					"Rebate": ""
@@ -355,15 +355,15 @@
 				{
 					"pista": "Delaware Park",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" :"",
 					"Rebate": ""
 				},
 				{
-					"pista": "Fair Grounds Thoroughbred",
+					"pista": "Fair Grounds Pura Sangre",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" :"",
 					"Rebate": ""
@@ -371,7 +371,7 @@
 				{
 					"pista": "Gulfstream Park",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" :"",
 					"Rebate": ""
@@ -379,7 +379,7 @@
 				{
 					"pista": "Keeneland",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -387,15 +387,15 @@
 				{
 					"pista": "Kentucky Downs",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" :"",
 					"Rebate": ""
 				},
 				{
-					"pista": "Louisiana Downs Thoroughbred",
+					"pista": "Louisiana Downs Pura Sangre",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" :"",
 					"Rebate": ""
@@ -403,7 +403,7 @@
 				{
 					"pista": "Meadowlands Harness",
 					"zonaHoraria": "EST",
-					"tipo" : "Harness",
+					"tipo" : "Trotones",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" :"",
 					"Rebate": ""
@@ -411,7 +411,7 @@
 				{
 					"pista": "Monmouth Park",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" :"",
 					"Rebate": ""
@@ -419,7 +419,7 @@
 				{
 					"pista": "Oaklawn Park",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" :"",
 					"Rebate": ""
@@ -427,7 +427,7 @@
 				{
 					"pista": "Santa Anita Park",
 					"zonaHoraria": "PST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" :"",
 					"Rebate": ""
@@ -435,7 +435,7 @@
 				{
 					"pista": "Saratoga",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" :"",
 					"Rebate": ""
@@ -443,7 +443,7 @@
 				{
 					"pista": "Tampa Bay Downs",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" :"",
 					"Rebate": ""
@@ -454,26 +454,26 @@
 			"table": 
 			[
 				{
-					"Pistas": "MINOR TRACKS",
-					"Zona": "Zona Horaria",
+					"Pistas": "HIPÓDROMO",
+					"Zona": "Zona",
 					"Tipo": "Tipo",
-					"LimitesP": "WIN/PLACE/SHOW/LIMITS",
-					"LimitesG": "GIMMICKS LIMITS",
+					"LimitesP": "1ero/2do/3ero LIMITES",
+					"LimitesG": "COMBINADAS LIMITES",
 					"Rebate": "REBATE %",
 					"id"	: "tableTwo"
 				},
 				{
 					"pista": "Dover Downs",
 					"zonaHoraria": "EST",
-					"tipo" : "Harness",
+					"tipo" : "Trotones",
 					"LimitesPosicion" : "$250",
 					"LimitesGimmicks" : "$50",
-					"Rebate": "4%"
+					"Rebate": ""
 				},
 				{
 					"pista": "Ellis Park",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -489,7 +489,7 @@
 				{
 					"pista": "Golden Gate Fields",
 					"zonaHoraria": "PST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -505,7 +505,7 @@
 				{
 					"pista": "Laurel Park",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -513,7 +513,7 @@
 				{
 					"pista": "Lone Star Park",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -521,7 +521,7 @@
 				{
 					"pista": "Los Alamitos Race Course",
 					"zonaHoraria": "PST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -529,7 +529,7 @@
 				{
 					"pista": "Meadowlands",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -537,7 +537,7 @@
 				{
 					"pista": "Meadows Harness",
 					"zonaHoraria": "EST",
-					"tipo" : "Harness",
+					"tipo" : "Trotones",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -545,7 +545,7 @@
 				{
 					"pista": "Monticello Raceway",
 					"zonaHoraria": "EST",
-					"tipo" : "Harness",
+					"tipo" : "Trotones",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -553,7 +553,7 @@
 				{
 					"pista": "Mountaineer Park",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -561,7 +561,7 @@
 				{
 					"pista": "Parx Racing",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -569,7 +569,7 @@
 				{
 					"pista": "Penn National",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -577,7 +577,7 @@
 				{
 					"pista": "Pimlico",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -593,7 +593,7 @@
 				{
 					"pista": "Sam Houston Race Park",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -609,7 +609,7 @@
 				{
 					"pista": "Suffolk Downs",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -617,7 +617,7 @@
 				{
 					"pista": "Turfway Park",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -625,7 +625,7 @@
 				{
 					"pista": "Woodbine",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -653,26 +653,26 @@
 			"table":
 			[
 				{
-					"Pistas": "OTHER TRACKS",
-					"Zona": "Zona Horaria",
+					"Pistas": "HIPÓDROMO",
+					"Zona": "Zona",
 					"Tipo": "Tipo",
-					"LimitesP": "WIN/PLACE/SHOW/LIMITS",
-					"LimitesG": "GIMMICKS LIMITS",
-					"Rebate": "REBATE %",
-					"id"	: "tableThree"
+					"LimitesP": "1ero/2do/3ero LIMITES",
+					"LimitesG": "COMBINADAS LIMITES",
+					"Rebate": "",
+					"id"	: ""
 				},
 				{
 					"pista": "Arapahoe Park",
 					"zonaHoraria": "MST",
-					"tipo" : "Thoroughbred ",
+					"tipo" : "Pura Sangre ",
 					"LimitesPosicion" : "$100",
 					"LimitesGimmicks" : "$20",
-					"Rebate": "1%"
+					"Rebate": ""
 				},
 				{
 					"pista": "Australia A",
 					"zonaHoraria": "-",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -680,7 +680,7 @@
 				{
 					"pista": "Australia B",
 					"zonaHoraria": "-",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -688,7 +688,7 @@
 				{
 					"pista": "Belterra",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred ",
+					"tipo" : "Pura Sangre ",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -704,7 +704,7 @@
 				{
 					"pista": "Canterbury Park",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -712,7 +712,7 @@
 				{
 					"pista": "Charles Town",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -720,7 +720,7 @@
 				{
 					"pista": "Delta Downs",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -728,7 +728,7 @@
 				{
 					"pista": "Emerald Downs",
 					"zonaHoraria": "PST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -736,7 +736,7 @@
 				{
 					"pista": "Evangeline Downs",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -744,7 +744,7 @@
 				{
 					"pista": "Fair Grounds QTR",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -752,7 +752,7 @@
 				{
 					"pista": "Fairmount Park",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -760,7 +760,7 @@
 				{
 					"pista": "Finger Lakes",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -768,7 +768,7 @@
 				{
 					"pista": "Fort Erie",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -776,7 +776,7 @@
 				{
 					"pista": "Hastings Park",
 					"zonaHoraria": "PST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -784,7 +784,7 @@
 				{
 					"pista": "Hawthorne",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -800,7 +800,7 @@
 				{
 					"pista": "Hialeah Park",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -816,7 +816,7 @@
 				{
 					"pista": "Indiana Downs",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -824,7 +824,7 @@
 				{
 					"pista": "Los Alamitos",
 					"zonaHoraria": "PST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -832,7 +832,7 @@
 				{
 					"pista": "Louisiana Downs QTR",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -864,7 +864,7 @@
 				{
 					"pista": "Portland Meadows",
 					"zonaHoraria": "PST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -872,7 +872,7 @@
 				{
 					"pista": "Prairie Meadows",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -880,7 +880,7 @@
 				{
 					"pista": "Presque Isle Downs",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -888,7 +888,7 @@
 				{
 					"pista": "Remington Park",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -896,7 +896,7 @@
 				{
 					"pista": "Retama Park",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -904,7 +904,7 @@
 				{
 					"pista": "Ruidoso Downs",
 					"zonaHoraria": "MST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -912,7 +912,7 @@
 				{
 					"pista": "Sacramento",
 					"zonaHoraria": "PST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -920,7 +920,7 @@
 				{
 					"pista": "Santa Rosa",
 					"zonaHoraria": "PST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -928,7 +928,7 @@
 				{
 					"pista": "Stockton",
 					"zonaHoraria": "PST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -936,7 +936,7 @@
 				{
 					"pista": "Sunland Park",
 					"zonaHoraria": "MST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -944,7 +944,7 @@
 				{
 					"pista": "Thistledown",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -952,7 +952,7 @@
 				{
 					"pista": "Timonium",
 					"zonaHoraria": "EST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -960,7 +960,7 @@
 				{
 					"pista": "Turf Paradise",
 					"zonaHoraria": "PST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -968,7 +968,7 @@
 				{
 					"pista": "Will Rogers Downs",
 					"zonaHoraria": "CST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -984,7 +984,7 @@
 				{
 					"pista": "Zia Park",
 					"zonaHoraria": "MST",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -996,13 +996,13 @@
 			"table":
 			[
 				{
-					"Pistas": "Galgos",
-					"Zona": "Time Zone",
+					"Pistas": "CANÓDROMO",
+					"Zona": "Zona",
 					"Tipo": "Tipo",
-					"LimitesP": "WIN/PLACE/SHOW/LIMITS",
-					"LimitesG": "GIMMICKS LIMITS",
-					"Rebate": "REBATE %",
-					"id"	: "tableFour"
+					"LimitesP": "1ero/2do/3ero LIMITES",
+					"LimitesG": "COMBINADAS LIMITES",
+					"Rebate": "",
+					"id"	: ""
 				},
 				{
 					"pista": "Derby Lane Evening",
@@ -1010,7 +1010,7 @@
 					"tipo" : "",
 					"LimitesPosicion" : "$100",
 					"LimitesGimmicks" : "$20",
-					"Rebate": "1%"
+					"Rebate": ""
 				},
 				{
 					"pista": "Derby Lane Matinee",
@@ -1090,26 +1090,26 @@
 			"table":
 			[
 				{
-					"Pistas": "Internacional",
+					"Pistas": "HIPÓDROMO",
 					"Zona": "ZONA",
-					"Tipo": "Type",
-					"LimitesP": "WIN/PLACE/SHOW LIMITS",
-					"LimitesG": "GIMMICKS LIMITS",
-					"Rebate": "REBATE %",
-					"id"	: "tableFive"
+					"Tipo": "TIPO",
+					"LimitesP": "1ero/2do/3ero LIMITES",
+					"LimitesG": "COMBINADAS LIMITES",
+					"Rebate": "",
+					"id"	: ""
 				},
 				{
 					"pista": "Ascot Racecourse",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "$250",
 					"LimitesGimmicks" : "$50",
-					"Rebate": "4%"
+					"Rebate": ""
 				},
 				{
 					"pista": "Ayr",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1117,7 +1117,7 @@
 				{
 					"pista": "Ballinrobe",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1125,7 +1125,7 @@
 				{
 					"pista": "Bangor-on-Dee",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1133,7 +1133,7 @@
 				{
 					"pista": "Bath",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1141,7 +1141,7 @@
 				{
 					"pista": "Bellewstown",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1149,7 +1149,7 @@
 				{
 					"pista": "Beverley",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1157,7 +1157,7 @@
 				{
 					"pista": "Brighton",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1165,7 +1165,7 @@
 				{
 					"pista": "Carlisle",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1173,7 +1173,7 @@
 				{
 					"pista": "Cartmel",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1181,7 +1181,7 @@
 				{
 					"pista": "Catterick",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1189,7 +1189,7 @@
 				{
 					"pista": "Chelmsford City",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1197,7 +1197,7 @@
 				{
 					"pista": "Cheltenham",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1205,7 +1205,7 @@
 				{
 					"pista": "Chepstow",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1213,7 +1213,7 @@
 				{
 					"pista": "Clonmel",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1221,7 +1221,7 @@
 				{
 					"pista": "Cork Racecourse",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1229,7 +1229,7 @@
 				{
 					"pista": "Curragh",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1237,7 +1237,7 @@
 				{
 					"pista": "Deauville-La Touques",
 					"zonaHoraria": "France",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1245,7 +1245,7 @@
 				{
 					"pista": "Doncaster Racecourse",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1253,7 +1253,7 @@
 				{
 					"pista": "Down Royal",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1261,7 +1261,7 @@
 				{
 					"pista": "Downpatrick",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1269,7 +1269,7 @@
 				{
 					"pista": "Dundalk",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1277,7 +1277,7 @@
 				{
 					"pista": "Durbanville",
 					"zonaHoraria": "South Africa",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1285,7 +1285,7 @@
 				{
 					"pista": "Epsom Downs",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1293,7 +1293,7 @@
 				{
 					"pista": "Exeter",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1301,7 +1301,7 @@
 				{
 					"pista": "Fairview",
 					"zonaHoraria": "South Africa",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1309,7 +1309,7 @@
 				{
 					"pista": "Fairyhouse Racecourse",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1317,7 +1317,7 @@
 				{
 					"pista": "Fakenham",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1325,7 +1325,7 @@
 				{
 					"pista": "Ffos Las",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1333,7 +1333,7 @@
 				{
 					"pista": "Flamingo",
 					"zonaHoraria": "South Africa",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1341,7 +1341,7 @@
 				{
 					"pista": "Fontwell",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1349,7 +1349,7 @@
 				{
 					"pista": "Galway",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1357,7 +1357,7 @@
 				{
 					"pista": "Goodwood",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1365,7 +1365,7 @@
 				{
 					"pista": "Gowran",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1373,7 +1373,7 @@
 				{
 					"pista": "Greyville",
 					"zonaHoraria": "South Africa",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1381,7 +1381,7 @@
 				{
 					"pista": "Hamilton",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1389,7 +1389,7 @@
 				{
 					"pista": "Happy Valley",
 					"zonaHoraria": "Hong Kong",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1397,7 +1397,7 @@
 				{
 					"pista": "Haydock",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1405,7 +1405,7 @@
 				{
 					"pista": "Hexham",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1413,7 +1413,7 @@
 				{
 					"pista": "Huntingdon",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1421,7 +1421,7 @@
 				{
 					"pista": "Kelso",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1429,7 +1429,7 @@
 				{
 					"pista": "Kempton",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1437,7 +1437,7 @@
 				{
 					"pista": "Kenilworth",
 					"zonaHoraria": "South Africa",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1445,7 +1445,7 @@
 				{
 					"pista": "Kilbeggan",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1453,7 +1453,7 @@
 				{
 					"pista": "Killarney",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1461,7 +1461,7 @@
 				{
 					"pista": "Laytown",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1469,7 +1469,7 @@
 				{
 					"pista": "Leicester",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1477,7 +1477,7 @@
 				{
 					"pista": "Leopardstown",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1485,7 +1485,7 @@
 				{
 					"pista": "Limerick",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1493,7 +1493,7 @@
 				{
 					"pista": "Lingfield",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1501,7 +1501,7 @@
 				{
 					"pista": "Listowel",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1509,7 +1509,7 @@
 				{
 					"pista": "Longchamp",
 					"zonaHoraria": "France",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1517,7 +1517,7 @@
 				{
 					"pista": "Ludlow",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1525,7 +1525,7 @@
 				{
 					"pista": "Maisons-Laffitte Racecourse",
 					"zonaHoraria": "France",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1533,7 +1533,7 @@
 				{
 					"pista": "Market Rasen",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1541,7 +1541,7 @@
 				{
 					"pista": "Musselburgh",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1549,7 +1549,7 @@
 				{
 					"pista": "Naas Racecourse",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1557,7 +1557,7 @@
 				{
 					"pista": "Navan",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1565,7 +1565,7 @@
 				{
 					"pista": "Newbury Racecourse",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1573,7 +1573,7 @@
 				{
 					"pista": "Newcastle",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1581,7 +1581,7 @@
 				{
 					"pista": "Newmarket",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1589,7 +1589,7 @@
 				{
 					"pista": "Newton Abbot",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1597,7 +1597,7 @@
 				{
 					"pista": "Nottingham",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1605,7 +1605,7 @@
 				{
 					"pista": "Perth",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1613,7 +1613,7 @@
 				{
 					"pista": "Plumpton",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1621,7 +1621,7 @@
 				{
 					"pista": "Pontefract",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1629,7 +1629,7 @@
 				{
 					"pista": "Punchestown",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1637,7 +1637,7 @@
 				{
 					"pista": "Redcar",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1645,7 +1645,7 @@
 				{
 					"pista": "Ripon",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1653,7 +1653,7 @@
 				{
 					"pista": "Roscommon",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1661,7 +1661,7 @@
 				{
 					"pista": "Salisbury",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1669,7 +1669,7 @@
 				{
 					"pista": "Sandown",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1677,7 +1677,7 @@
 				{
 					"pista": "Scottsville",
 					"zonaHoraria": "South Africa",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1685,7 +1685,7 @@
 				{
 					"pista": "Sedgefield",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1693,7 +1693,7 @@
 				{
 					"pista": "Sha Tin",
 					"zonaHoraria": "Hong Kong",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1701,7 +1701,7 @@
 				{
 					"pista": "Sligo",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1709,7 +1709,7 @@
 				{
 					"pista": "Southwell",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1717,7 +1717,7 @@
 				{
 					"pista": "Stratford",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1725,7 +1725,7 @@
 				{
 					"pista": "Taunton",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1733,7 +1733,7 @@
 				{
 					"pista": "Thirsk",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1741,7 +1741,7 @@
 				{
 					"pista": "Thurles",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1749,7 +1749,7 @@
 				{
 					"pista": "Tipperary",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1757,7 +1757,7 @@
 				{
 					"pista": "Towcester",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1765,7 +1765,7 @@
 				{
 					"pista": "Tramore",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1773,7 +1773,7 @@
 				{
 					"pista": "Turffontein",
 					"zonaHoraria": "South Africa",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1781,7 +1781,7 @@
 				{
 					"pista": "Uttoxeter",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1789,7 +1789,7 @@
 				{
 					"pista": "Vaal",
 					"zonaHoraria": "South Africa",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1797,7 +1797,7 @@
 				{
 					"pista": "Warwick",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1805,7 +1805,7 @@
 				{
 					"pista": "Wetherby",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1813,7 +1813,7 @@
 				{
 					"pista": "Wexford",
 					"zonaHoraria": "Ireland",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1821,7 +1821,7 @@
 				{
 					"pista": "Wincanton",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1829,7 +1829,7 @@
 				{
 					"pista": "Windsor",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1837,7 +1837,7 @@
 				{
 					"pista": "Wolverhampton",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1845,7 +1845,7 @@
 				{
 					"pista": "Worcester",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1853,7 +1853,7 @@
 				{
 					"pista": "Yarmouth",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""
@@ -1861,7 +1861,7 @@
 				{
 					"pista": "York",
 					"zonaHoraria": "UK",
-					"tipo" : "Thoroughbred",
+					"tipo" : "Pura Sangre",
 					"LimitesPosicion" : "",
 					"LimitesGimmicks" : "",
 					"Rebate": ""

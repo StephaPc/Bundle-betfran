@@ -19,6 +19,15 @@
 		overflow-y: scroll;
 	}
 }
+
+.caballos .tabs-container__tab{
+	border: 1px solid #fff;
+}
+
+.caballos .tabs-container__tab.is-active:hover{
+	background: yellow;
+}
+
 .tabs-container__panels{
 	
 	margin-top: 2rem;
