@@ -4,6 +4,7 @@ import {modalLogin} from './components/modal-login';
 import {videosHome} from './components/videos-home';
 import {tablecaballos} from './components/tablecaballos';
 import tabs from './components/tabs';
+import {initAcc} from './components/accordion-rules';
 
 (()=>{
 
@@ -33,6 +34,9 @@ else if (document.body.classList.contains('BonoBienvenidaCasino')) {
 }
 else if (document.body.classList.contains('BonoRecarga')) {
   tnsPromotion();
+}
+else if (document.body.classList.contains('ReglasDeportes')) {
+  initAcc();
 }
 
 

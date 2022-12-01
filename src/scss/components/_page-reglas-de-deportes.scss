@@ -1,0 +1,109 @@
+@import '../config/vars';
+.accordion-container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.accordion {
+	width: 100%;
+	height: auto;
+}
+.accordion .a-container {
+	padding-bottom: 1rem;
+}
+.accordion .a-container .a-btn {
+	position: relative;
+	padding: 1rem 2rem;
+	font-weight: 500;
+	background-color: var(--color-gray);
+	cursor: pointer;
+	transition: all 0.4s ease-in-out;
+	border-radius: 5px;
+  font-size: 1rem;
+}
+.accordion .a-container .a-btn span {
+	display: block;
+	position: absolute;
+	height: 14px;
+	width: 14px;
+	right: 20px;
+	top: 18px;
+}
+.accordion .a-container .a-btn span:after {
+	content: "";
+	width: 14px;
+	height: 3px;
+	border-radius: 2px;
+	background-color: #fff;
+	position: absolute;
+	top: 6px;
+}
+.accordion .a-container .a-btn span:before {
+	content: "";
+	width: 14px;
+	height: 3px;
+	border-radius: 2px;
+	background-color: #fff;
+	position: absolute;
+	top: 6px;
+	transform: rotate(90deg);
+	transition: all 0.4s ease-in-out;
+}
+.accordion .a-container .a-panel {
+	width: 100%;
+	transition: all 0.4s ease-in-out;
+	opacity: 0;
+	height: auto;
+	max-height: 0;
+	overflow: hidden;
+}
+.accordion .a-container.active .a-btn {
+	color: var(--color-white);
+}
+.accordion .a-container.active .a-btn span::before {
+	transform: rotate(0deg);
+}
+.accordion .a-container.active .a-panel {
+	padding: 1rem 2rem;
+	opacity: 1;
+	max-height: 100%;
+	background-color: var(--color-black);
+}
+
+@import '../config/vars';
+.sport-rules-container {
+	padding: 20px;
+	background-color: var(--color-black);
+	box-shadow: var(--color-black);
+	border-radius: 15px;
+	margin-bottom: 40px;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+
+	h1{
+		font-size: 24px;
+	}
+	h2{
+		font-size: 16px;
+	}
+	td, tr{
+		text-align: center;
+	}
+}
+
+.sport-rules__table {
+	border-collapse: collapse;
+}
+
+.sport-rules__table--td1 {
+	width: 20%;
+	padding: 5px;
+	border: 1px solid #999;
+  background: #c37a07;
+}
+
+.sport-rules__table--td2 {
+	border: 1px solid #999;
+	padding: 5px;
+}

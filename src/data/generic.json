@@ -1868,5 +1868,55 @@
 				}
 			]
 		}
+	],
+	"sportRules" : [
+		{
+			"td1" : "Pro Football",
+			"td2" : "55 minutos de juego"
+		},
+		{
+			"td1" : "College Football",
+			"td2" : "55 minutos de juego"
+		},
+		{
+			"td1" : "Baloncesto",
+			"td2" : "Todos las competencias/ligas excepto la NBA deben jugar como minimo 35 minutos para tener acción, al menos que se especifique otra cosa."
+		},
+		{
+			"td1" : "Pro Basketball",
+			"td2" : "55 minutos de juego"
+		},
+		{
+			"td1" : "College Basketball",
+			"td2" : "55 minutos de juego"
+		},
+		{
+			"td1" : "Baloncesto Mexicano",
+			"td2" : "35 minutos de juego"
+		},
+		{
+			"td1" : "Hockey",
+			"td2" : "55 minutos de juego"
+		},
+		{
+			"td1" : "Baseball Sides",
+			"td2" : "5 entradas (4 1/2 si el equipo de casa está ganando)"
+		},
+		{
+			"td1" : "Baseball Totals",
+			"td2" : "9 entradas (8 1/2 si el equipo de casa está ganando)"
+		},
+		{
+			"td1" : "Run Lines",
+			"td2" : "9 entradas (8 1/2 si el equipo de casa está ganando)"
+		},
+		{
+			"td1" : "Tennis",
+			"td2" : "Un servicio"
+		},
+		{
+			"td1" : "Soccer",
+			"td2" : "Si un partido es suspendido antes de completarse el tiempo del juego, y no se completa el mismo día, las apuestas sobre el resultado del partido se considerarán nulas y todas las apuestas seran devueltas. Incluye Goal Lines, Money lines and Totals."
+		}
 	]
 }

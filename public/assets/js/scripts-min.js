@@ -1,4 +1,31 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+function initAcc(elem, option) {
+    document.addEventListener('click', function (e) {
+        if (!e.target.matches(elem + ' .a-btn')) return;else {
+            if (!e.target.parentElement.classList.contains('active')) {
+                if (option == true) {
+                    var elementList = document.querySelectorAll(elem + ' .a-container');
+                    Array.prototype.forEach.call(elementList, function (e) {
+                        e.classList.remove('active');
+                    });
+                }
+                e.target.parentElement.classList.add('active');
+            } else {
+                e.target.parentElement.classList.remove('active');
+            }
+        }
+    });
+}
+initAcc('.accordion.v1', true);
+initAcc('.accordion.v2', false);
+exports.default = initAcc();
+
+},{}],2:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26,7 +53,7 @@ function modalLogin() {
 
 exports.modalLogin = modalLogin;
 
-},{}],2:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -58,7 +85,7 @@ var tablecaballos = exports.tablecaballos = function tablecaballos() {
 	}
 };
 
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -86,7 +113,7 @@ var tabs = function tabs() {
 
 exports.default = tabs;
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -179,7 +206,7 @@ var tnsPoker = exports.tnsPoker = function tnsPoker() {
   });
 };
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -200,7 +227,7 @@ var topNav = exports.topNav = function topNav() {
 	myFunction();
 };
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -224,7 +251,7 @@ var videosHome = exports.videosHome = function videosHome() {
 	}
 };
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 'use strict';
 
 var _topNav = require('./components/topNav');
@@ -240,6 +267,8 @@ var _tablecaballos = require('./components/tablecaballos');
 var _tabs = require('./components/tabs');
 
 var _tabs2 = _interopRequireDefault(_tabs);
+
+var _accordionRules = require('./components/accordion-rules');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -265,9 +294,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     (0, _tnsSlider.tnsPromotion)();
   } else if (document.body.classList.contains('BonoRecarga')) {
     (0, _tnsSlider.tnsPromotion)();
+  } else if (document.body.classList.contains('ReglasDeportes')) {
+    (0, _accordionRules.initAcc)();
   }
 })();
 
-},{"./components/modal-login":1,"./components/tablecaballos":2,"./components/tabs":3,"./components/tns-slider":4,"./components/topNav":5,"./components/videos-home":6}]},{},[7]);
+},{"./components/accordion-rules":1,"./components/modal-login":2,"./components/tablecaballos":3,"./components/tabs":4,"./components/tns-slider":5,"./components/topNav":6,"./components/videos-home":7}]},{},[8]);
 
 //# sourceMappingURL=scripts-min.js.map
