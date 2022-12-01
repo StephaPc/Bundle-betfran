@@ -1,0 +1,42 @@
+.nosotros {
+  width: 91%;
+  max-width: 91%;
+  margin: 0 auto;
+    @media (min-width: 474px) {
+        margin-top: 0rem;
+    }
+    &__banner {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        source{
+          border-radius: 10px;
+        }
+        img{
+          border-radius: 10px;
+        }
+    }
+    &__content {
+        width: 80%;
+        max-width: 80%;
+        margin: 2rem auto;
+        p, li, ul{
+          font-size: 1rem;
+          text-align: justify;
+        }
+
+         /*MOBILE*/
+      @include fromTo(s,m) {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+    &__gallerie{
+        margin-top: 2rem;
+    }
+    &__button{
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0;
+    }
+}

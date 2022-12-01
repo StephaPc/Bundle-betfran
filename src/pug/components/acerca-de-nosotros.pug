@@ -1,0 +1,9 @@
+section(class="nosotros")
+    div(class="nosotros__banner")
+        picture
+            source(media="(min-width: 640px)" srcset="assets/img/sider-sobre-nosotros-dk.jpg" alt="Banner sobre nosotros" width="1949" height="547")
+            img(src="assets/img/sider-sobre-nosotros-mb.jpg" alt="Banner sobre nosotros" width="1949" height="547")
+    div(class="nosotros__content")
+        include:markdown-it(html) ../md/page-acerca-de-nosotros.md
+div(class="btn-register-internal")
+  a(class="btn btn__register" href="registro.html") Regístrate Ya

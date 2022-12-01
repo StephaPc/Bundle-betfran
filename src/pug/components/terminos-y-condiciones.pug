@@ -1,0 +1,9 @@
+section(class="terminos")
+    div(class="terminos__banner")
+        picture
+            source(media="(min-width: 640px)" srcset="assets/img/sider-terminos-y-condiciones-dk.jpg" alt="Banner terminos y condiciones" width="1949" height="547")
+            img(src="assets/img/sider-terminos-y-condiciones-mb.jpg" alt="Banner terminos y condiciones" width="1949" height="547")
+    div(class="terminos__content")
+        include:markdown-it(html) ../md/page-terminos-y-condiciones.md
+div(class="btn-register-internal")
+  a(class="btn btn__register" href="registro.html") Regístrate Ya
