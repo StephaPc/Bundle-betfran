@@ -3,7 +3,8 @@ mixin divfooter()
 		-for(var j = 0; j < colum.length; j++)
 			-var title=colum[j].title
 			-var src=colum[j].src
-			+footerColum(title,src)
+			ul
+				+footerColum(title,src)
 
 mixin footerColum(title, src)
 	li: a(href=src)=title

@@ -2,10 +2,10 @@ div(class = "login")
 	<form name="LoginForm" action="javascript:void(0)" onsubmit="BackEndLogin(this); return false">
 		div(class = "login__align")
 			label(for="username") Usuario: 
-			input(class="login__input-label" type="text" name="username" required)
+			input(class="login__input-label" type="text" id="username" name="username" required)
 		div(class = "login__align") 
 			label(for="password") Contraseña: 
-			input(class="login__input-label" type="password" name="password" required)
+			input(class="login__input-label" type="password" id="password" name="password" required)
 			div(class="text-center mt-2"): small(name="msj_error_lg" class="text-danger")
 		div(class = "login__btn") 
 			button(class="btn btn__login" name="btn-login" type="submit") INGRESAR

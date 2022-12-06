@@ -129,7 +129,9 @@ var tnsSingle = exports.tnsSingle = function tnsSingle() {
     speed: 1000,
     mode: 'gallery',
     mouseDrag: true,
-    controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
+    prevButton: false,
+    nextButton: false,
+    controlsText: ['<i class="fas fa-chevron-left" aria-label="previous"></i>', '<i class="fas fa-chevron-right" aria-label="next"></i>']
   });
 };
 
@@ -168,7 +170,9 @@ var tnsCarouselBanking = exports.tnsCarouselBanking = function tnsCarouselBankin
     edgePadding: 40,
     nav: false,
     mouseDrag: true,
-    controlsText: ['<i class="tns-carousell__prev fas fa-chevron-left"></i>', '<i class="tns-carousell__next fas fa-chevron-right"></i>'],
+    prevButton: false,
+    nextButton: false,
+    controlsText: ['<i class="tns-carousell__prev fas fa-chevron-left" aria-label="previous"></i>', '<i class="tns-carousell__next fas fa-chevron-right" aria-label="next"></i>'],
     responsive: {
       480: {
         items: 2
@@ -202,7 +206,7 @@ var tnsPoker = exports.tnsPoker = function tnsPoker() {
     autoplayButtonOutput: false,
     mode: 'gallery',
     mouseDrag: true,
-    controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
+    controlsText: ['<i class="fas fa-chevron-left" aria-label="previous"></i>', '<i class="fas fa-chevron-right" aria-label="next"></i>']
   });
 };
 

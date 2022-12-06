@@ -8,9 +8,11 @@ export const tnsSingle = ()=> {
 		speed               : 1000,
 		mode                : 'gallery',
 		mouseDrag           : true,
+    prevButton          : false,
+    nextButton          : false,
 		controlsText: [ 
-			'<i class="fas fa-chevron-left"></i>',
-			'<i class="fas fa-chevron-right"></i>'
+			'<i class="fas fa-chevron-left" aria-label="previous"></i>',
+			'<i class="fas fa-chevron-right" aria-label="next"></i>'
 			]
 		}); 
 };
@@ -55,9 +57,11 @@ export const tnsCarouselBanking = () =>{
         edgePadding     : 40,
         nav             : false,
         mouseDrag       : true,
+        prevButton          : false,
+        nextButton          : false,
         controlsText    : [ 
-          '<i class="tns-carousell__prev fas fa-chevron-left"></i>',
-          '<i class="tns-carousell__next fas fa-chevron-right"></i>'
+          '<i class="tns-carousell__prev fas fa-chevron-left" aria-label="previous"></i>',
+          '<i class="tns-carousell__next fas fa-chevron-right" aria-label="next"></i>'
         ],
         responsive: {
             480: {
@@ -94,8 +98,8 @@ export const tnsPoker = () =>{
     mode                : 'gallery',
     mouseDrag           : true,
     controlsText: [ 
-      '<i class="fas fa-chevron-left"></i>',
-      '<i class="fas fa-chevron-right"></i>'
+      '<i class="fas fa-chevron-left" aria-label="previous"></i>',
+      '<i class="fas fa-chevron-right" aria-label="next"></i>'
     ]
   }); 
 };

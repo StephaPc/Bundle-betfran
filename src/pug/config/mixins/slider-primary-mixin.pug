@@ -2,13 +2,13 @@ mixin sliderPrimary(src, imgMob, url, target, nameclass)
   -if (url !== '')
     div: div(class='tns-single__content')
       a(href=`${url}`, target=`${target}`, class=`${nameclass}`)
-        picture 
+        picture
           source(media="(min-width: 640px)", class='img-fluid height_content' srcset=`${src}`, alt="image slider", width="1921" height="451")
           img(class='tns-single__img img-fluid height_content', src=`${imgMob}`, alt="image slider0", width="452" height="242")
   -else 
     div
       div(class='tns-single__content')
-        a(class=`${nameclass}`)
+        a(href="#" class=`${nameclass}`)
           picture 
             source(media="(min-width: 640px)", class='img-fluid height_content' srcset=`${src}`, alt="image sliderTest", width="1921" height="451")
             img(class='tns-single__img img-fluid height_content', src=`${imgMob}`, alt="image slider0", width="452" height="242")
