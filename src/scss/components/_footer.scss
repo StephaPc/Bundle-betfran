@@ -1,60 +1,61 @@
 .footer {
-    @include fromTo(s, m) {
+	@include fromTo(s, m) {
+		&__cols {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
 
-        &__cols {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+		.ed-grid.row-gap,
+		.ed-grid.rows-gap {
+			grid-row-gap: 0;
+		}
+	}
 
-        .ed-grid.row-gap,
-        .ed-grid.rows-gap {
-            grid-row-gap: 0;
-        }
-    }
+	&__subFooter {
+		background: var(--gray-color);
+		border-radius: 10px;
+		padding: 2rem;
+	}
 
-    &__subFooter {
-        background: var(--gray-color);
-        border-radius: 10px;
-        padding: 2rem;
-    }
+	&__bottom {
+		display: flex;
+		justify-content: center;
+		padding-top: 1em;
 
-    &__bottom{
-        display: flex;
-        justify-content: center;
-        padding-top: 1em;
+		&__img {
+			height: 20px;
+			margin-left: 0.3em;
+		}
+	}
 
-        &__img{
-            height: 20px;
-            margin-left: 0.3em;
-        }
-    }
+	&__cols {
+		display: flex;
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-    &__cols {
-        display: flex;
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-    }
+	& li {
+		list-style: none;
+	}
 
-    & li{
-        list-style: none;
-    }
+	& ul {
+		margin-bottom: 0.7rem !important;
+	}
 
-    & a {
-        padding-bottom: .8rem;
-        line-height: 3;
-    }
+	& a {
+		padding-bottom: 0.8rem;
+	}
 
-    & a:hover {
-        text-decoration: none;
-        color: var(--Bg-ColorOrange);
+	& a:hover {
+		text-decoration: none;
+		color: var(--Bg-ColorOrange);
+	}
 
-    }
-    
-    & p{
-        font-size: 0.65rem;
-        margin-bottom: 0;
-    }
+	& p {
+		font-size: 0.65rem;
+		margin-bottom: 0;
+	}
 }
