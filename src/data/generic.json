@@ -44,15 +44,8 @@
 	],
 	"sliderPrimary": [
 		{
-			"src": "assets/img/banner-Road.jpg",
-			"imgMob": "assets/img/banner-Road-mobile.jpg",
-			"url": "http://clsop.com/",
-			"target": "_blank",
-			"nameclass": ""
-		},
-		{
-			"src": "assets/img/banner-clsop-league-1920x450.jpg",
-			"imgMob": "assets/img/banner-clsop-league-1920x450.jpg",
+			"src": "assets/img/peleaDeGallos-dk.jpg",
+			"imgMob": "assets/img/peleaDeGallos-mb.jpg",
 			"url": "http://clsop.com/",
 			"target": "_blank",
 			"nameclass": ""
@@ -67,6 +60,13 @@
 		{
 			"src": "assets/img/heroimagehomepage-02.jpg",
 			"imgMob": "assets/img/Bannersmobile-todos1.jpg",
+			"url": "http://clsop.com/",
+			"target": "_blank",
+			"nameclass": ""
+		},
+		{
+			"src": "assets/img/casino-bonus-dk.jpg",
+			"imgMob": "assets/img/casino-bonus-mb.jpg",
 			"url": "",
 			"target": "",
 			"nameclass": "btnlogin"

@@ -1,11 +1,11 @@
-.box-color{
+.box-color {
 	background: #cccccc;
 	color: #666666;
 	border: 1px solid white;
 	padding: 5px 15px;
 }
 
-.section-divider{
+.section-divider {
 	padding-bottom: 30px;
 }
 img {
@@ -16,19 +16,24 @@ img {
 	height: auto;
 }
 
-
 .sidebar-first {
-  margin-bottom : 1em;
+	margin-bottom: 1em;
 }
 
-.no-marging{
+.no-marging {
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
-.bottom-space{
+.bottom-space {
 	margin-bottom: 1em;
 }
-.foot-icon{
+.foot-icon {
 	margin-left: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+	#tnsSingle .height_content {
+		height: 240px;
+	}
 }
